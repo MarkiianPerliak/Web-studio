@@ -10,14 +10,12 @@
 .projects-item2 {
     font-family: 'Roboto';
 }
-
-
-
-
-
-
-.footer-link {
+.footer-address {
+    font-family: 'Roboto';
+}
+.footer-link2 {
     font-family: 'Raleway';
+    color: white;
 }
 .footer-item {
     font-family: 'Roboto';

@@ -2,7 +2,7 @@
     font-family: 'Raleway';
 }
 .header-item {
-    font-family: 'Roboto';
+font-family: 'Roboto';
 }
 .headline-text {
     font-family: 'Roboto';
@@ -24,10 +24,15 @@
 }
 .footer-link {
     font-family: 'Raleway';
+    color: rgba(33, 150, 243, 1);
 }
 .footer-item {
     font-family: 'Roboto';
 }
 .footer-address {
     font-family: 'Roboto';
+}
+.footer-link2 {
+    font-family: 'Raleway';
+    color: white;
 }
