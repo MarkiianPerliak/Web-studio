@@ -1,4 +1,4 @@
-.header-link {
+/* .header-link {
     font-family: 'Raleway';
 }
 .header-item {
@@ -22,4 +22,154 @@
 }
 .footer-address {
     font-family: 'Roboto';
+} */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header-link {
+    font-family: 'Raleway';
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #2196F3;
+}
+
+#header-link {
+font-family: 'Raleway';
+font-size: 26px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #000000;
+}
+
+.header-link2 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;
+}
+
+.header-link2:hover {
+    color: #2196F3;
+}
+
+#header-link2 {
+    font-family: 'Roboto';
+font-size: 14px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+color: #757575;
+}
+
+#header-link2:hover {
+    color: #2196F3;
+}
+
+.project-button {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+
+.project-button:hover {
+    color: #FFFFFF;
+}
+
+.projects-headline {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #212121;
+    }
+
+.project-info {
+    font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #757575;
+}
+
+#footer {
+    height: 252px;
+width: 1600px;
+left: 0px;
+top: 2094px;
+border-radius: 0px;
+background: #2F303A;
+
+}
+
+.footer-link {
+    font-family: 'Raleway';
+font-size: 26px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #2196F3;
+}
+
+#footer-link {
+    font-family: 'Raleway';
+font-size: 26px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+color: white;
+}
+
+.footer-address {
+    font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+font-style: normal;
+}
+
+.footer-mail {
+    font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF99;
+}
+
+.footer-tel {
+    font-family: 'Roboto';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF99;
 }
