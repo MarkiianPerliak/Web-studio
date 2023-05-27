@@ -92,10 +92,12 @@ color: #757575;
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
+    background: #F5F4FA;
 }
 
 .project-button:hover {
     color: #FFFFFF;
+    background: #2196F3;
 }
 
 .projects-headline {
@@ -109,7 +111,7 @@ color: #757575;
     }
 
 .project-info {
-
+font-family: 'Roboto';
 font-size: 16px;
 font-weight: 400;
 line-height: 1.87;
@@ -119,7 +121,6 @@ color: #757575;
 }
 
 #footer {
-    
 background: #2F303A;
 
 }

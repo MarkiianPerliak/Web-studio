@@ -105,6 +105,7 @@ line-height: 1.36;
 letter-spacing: 0.06em;
 text-align: center;
 color: #FFFFFF;
+text-transform: uppercase;
 }
 .headline {
 
@@ -119,6 +120,7 @@ line-height: 1.87;
 letter-spacing: 0.06em;
 text-align: center;
 color: white;
+background: #2196F3;
 }
 
 .services-headline {
