@@ -37,18 +37,6 @@
     color: white;
 } */
 
-.body {
-font-family: 'Roboto';
-}
-
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
 .header-link {
     font-family: 'Raleway';
 font-size: 26px;
