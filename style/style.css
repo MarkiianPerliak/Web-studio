@@ -94,6 +94,10 @@ letter-spacing: 0.06em;
 text-align: center;
 color: #FFFFFF;
 text-transform: uppercase;
+padding-left: auto;
+padding-right: auto;
+padding-top: 200px;
+padding-bottom: 280px;
 }
 .headline {
 
@@ -101,7 +105,6 @@ background: #2F303A;
 }
 
 .headline-button {
-
 font-size: 16px;
 font-weight: 700;
 line-height: 1.87;
@@ -109,6 +112,13 @@ letter-spacing: 0.06em;
 text-align: center;
 color: white;
 background: #2196F3;
+border-radius: 4px;
+height: 50px;
+width: 216px;
+}
+
+.services {
+    margin-top: 94px;
 }
 
 .services-headline {
@@ -131,6 +141,10 @@ text-align: left;
 color: #757575;
 }
 
+.product {
+    margin-top: 94px;
+}
+
 .product-headline {
    
 font-size: 36px;
@@ -139,6 +153,10 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
+}
+
+.team {
+    margin-top: 94px;
 }
 
 .team-headline {
