@@ -10,7 +10,92 @@ li {
     list-style: none;
 }
 
+.header {
+margin-bottom: 94px;
+}
 
+.header-link3 {
+    font-family: 'Raleway';
+font-size: 26px;
+font-weight: 700;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-align: left;
+color: #2196F3;
+padding-left: 215px;
+}
+
+#header-link {
+font-family: 'Raleway';
+font-size: 26px;
+font-weight: 400;
+line-height: 1.38;
+letter-spacing: 0.03em;
+text-align: left;
+color: #000000;
+}
+
+.header-link4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;
+    padding-left: 93px;
+}
+
+.header-link4:hover {
+    color: #2196F3;
+}
+
+.header-link2 {
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;
+    padding-left: 50px;
+}
+
+.header-link2:hover {
+    color: #2196F3;
+}
+
+#header-link3 { 
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #757575;
+    padding-left: 344px;
+}
+    
+#header-link3:hover {
+    color: #2196F3;
+}
+
+#header-link2 {
+    
+font-size: 14px;
+font-weight: 500;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-align: left;
+color: #757575;
+padding-left: 50px;
+}
+
+#header-link2:hover {
+    color: #2196F3;
+}
+
+.projects {
+    margin-bottom: 94px;
+}
 
 .project-button {
 
@@ -21,6 +106,7 @@ li {
     text-align: center;
     color: #212121;
     background: #F5F4FA;
+    margin-bottom: 34px;
 }
 
 .project-button:hover {
@@ -47,3 +133,6 @@ text-align: left;
 color: #757575;
 }
 
+.project-item {
+    margin-bottom: 34px;
+}
