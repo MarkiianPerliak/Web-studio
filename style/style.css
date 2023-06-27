@@ -1,3 +1,7 @@
+.header-nav {
+    display: flex;
+}
+
 .header-link3 {
     font-family: 'Raleway';
 font-size: 26px;
@@ -121,6 +125,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-align: left;
 color: #212121;
+
 }
 
 .services-info {
@@ -137,6 +142,11 @@ color: #757575;
     margin-top: 94px;
 }
 
+.product-list2 {
+display: flex;
+justify-content: space-around;
+}
+
 .product-headline {
    
 font-size: 36px;
@@ -150,6 +160,24 @@ color: #212121;
 .team {
     margin-top: 94px;
     margin-bottom: 110px;
+    background: #F5F4FA;
+    height: 648px;
+
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-article {
+    border-radius: 0px 0px 4px 4px;
+    background: #FFF;
+}
+
+.team-img {
+    width: 270px;
+    height: 260px;
 }
 
 .team-headline {
@@ -160,6 +188,8 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
+padding-top: 78px;
+margin-bottom: 50px;
 }
 
 .team-name {
@@ -170,6 +200,8 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
+margin-top: 30px;
+margin-bottom: 10px;
 
 }
 
@@ -181,6 +213,7 @@ line-height: 1.18;
 letter-spacing: 0.03em;
 text-align: center;
 color: #757575;
+padding-bottom: 30px;
 
 }
 
