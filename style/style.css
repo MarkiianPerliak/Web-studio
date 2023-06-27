@@ -117,6 +117,10 @@ width: 216px;
     margin-top: 94px;
 }
 
+.services-list {
+display: flex;
+}
+
 .services-headline {
    
 font-size: 14px;
