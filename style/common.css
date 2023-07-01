@@ -87,7 +87,12 @@ color: #000000;
 #footer {
    
     background: #2F303A;
-    
+    padding-top: 60px;
+    padding-bottom: 60px;
+    }
+
+    .footer-logo-link {
+        margin-bottom: 20px;
     }
 
     .footer-logo-color {
@@ -98,7 +103,6 @@ color: #000000;
     letter-spacing: 0.03em;
     text-align: left;
     color: #2196F3;
-    padding-left: 215px;
 
     }
     
@@ -121,7 +125,6 @@ color: #000000;
     text-align: left;
     color: #FFFFFF;
     font-style: normal;
-    padding-left: 215px;
     }
     
     .footer-mail {
@@ -132,7 +135,7 @@ color: #000000;
     letter-spacing: 0.03em;
     text-align: left;
     color: #FFFFFF99;
-    padding-left: 215px;
+    margin-top: 9px;
     }
     
     .footer-tel {
@@ -143,5 +146,5 @@ color: #000000;
     letter-spacing: 0.03em;
     text-align: left;
     color: #FFFFFF99;
-    padding-left: 215px;
+    margin-top: 9px;
     }

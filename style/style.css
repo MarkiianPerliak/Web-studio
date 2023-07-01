@@ -11,14 +11,13 @@ letter-spacing: 0.06em;
 text-align: center;
 color: #FFFFFF;
 text-transform: uppercase;
-padding-left: auto;
-padding-right: auto;
-padding-top: 200px;
-padding-bottom: 280px;
+
 }
 .headline {
 
 background: #2F303A;
+padding-top: 200px;
+padding-bottom: 280px;
 }
 
 .headline-button {
@@ -32,10 +31,11 @@ background: #2196F3;
 border-radius: 4px;
 height: 50px;
 width: 216px;
+margin-top: 30px;
 }
 
 .services {
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .services-list {
@@ -65,7 +65,7 @@ color: #757575;
 }
 
 .product {
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .product-list2 {
@@ -81,11 +81,11 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
+padding-bottom: 50px;
 }
 
 .team {
-    margin-top: 94px;
-    margin-bottom: 110px;
+    padding-top: 94px;
     background: #F5F4FA;
     height: 648px;
 
