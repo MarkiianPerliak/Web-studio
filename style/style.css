@@ -32,6 +32,8 @@ border-radius: 4px;
 height: 50px;
 width: 216px;
 margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .services {
@@ -51,7 +53,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-align: left;
 color: #212121;
-
+margin-bottom: 10px;
 }
 
 .services-info {
@@ -81,7 +83,7 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 text-align: center;
 color: #212121;
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
 .team {

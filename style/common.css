@@ -25,16 +25,14 @@ body {
     display: flex;
     margin-left: 93px;
     gap: 50px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+align-items: center;
 }
 
 .header-contacts {
     display: flex;
     margin-left: 344px;
     gap: 50px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    align-items: center;
 }
 
 .header-logo-color {
