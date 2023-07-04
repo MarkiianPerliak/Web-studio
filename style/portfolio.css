@@ -13,25 +13,48 @@ li {
 
 
 .projects {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.projects-list {
+display: flex;
+gap: 8px;
+justify-content: center;
+
 }
 
 .project-button {
-
+display: block;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
+    height: 38px;
+    font-family: "Roboto";
     text-align: center;
     color: #212121;
     background: #F5F4FA;
     margin-bottom: 34px;
+    border-radius: 4px;
 }
 
 .project-button:hover {
     color: #FFFFFF;
     background: #2196F3;
+}
+
+.projects-list2 {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    gap: 30px;
+}
+
+.projects-article {
+    border: 1px solid #EEE;
+background: #FFF;
+
 }
 
 .projects-headline {
