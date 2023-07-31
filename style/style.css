@@ -3,14 +3,16 @@
 
 
 .headline-text {
-   
+    color: #FFF;
+text-align: center;
+font-family: 'Roboto';
 font-size: 44px;
 font-weight: 900;
-line-height: 1.36;
+line-height: 60px; /* 136.364% */
 letter-spacing: 0.06em;
-text-align: center;
-color: #FFFFFF;
 text-transform: uppercase;
+width: 696px;
+
 
 }
 .headline {
@@ -35,6 +37,7 @@ width: 216px;
 margin-top: 30px;
 margin-left: auto;
 margin-right: auto;
+border: none;
 
 }
 
