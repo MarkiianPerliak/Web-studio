@@ -42,6 +42,7 @@ li {
     padding-right: 22px;
     padding-top: 6px;
     padding-bottom: 6px;
+    cursor: pointer;
 }
 
 .project-button:hover {
