@@ -9,15 +9,16 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     width: 696px;
-
-
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .headline {
 
     background: #2F303A;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
 }
 
 .headline-button {
