@@ -55,6 +55,7 @@ li {
     flex-wrap: wrap;
     row-gap: 30px;
     gap: 30px;
+    justify-content: center;
 }
 
 .project-box {
