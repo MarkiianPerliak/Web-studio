@@ -18,8 +18,8 @@ body {
 }
 
 .header-logo-link {
-    margin-top: 24px;
-    margin-bottom: 25px;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .header-list {
