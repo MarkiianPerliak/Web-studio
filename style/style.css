@@ -49,6 +49,13 @@
     gap: 30px;
 }
 
+.section-headline {
+    background-image: url(../images-index/img.png);
+    background-size: cover;
+    padding-top: 200px;
+padding-bottom: 200px;
+}
+
 .services-headline {
 
     font-size: 14px;
@@ -73,6 +80,7 @@
 .product {
     padding-top: 94px;
 }
+
 
 .product-list2 {
     display: flex;
@@ -104,7 +112,10 @@
 
 .team-article {
     border-radius: 0px 0px 4px 4px;
-    background: #FFF;
+background: #FFF;
+
+/* material shadow v1 */
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .team-img {
