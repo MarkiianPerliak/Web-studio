@@ -65,9 +65,7 @@
 }
 
 .section-headline {
-
-    background-image: url(../images-index/img.png);
-    background-image: linear-gradient(to right, rgba(48, 49, 59, 0.4)0%, 21%, 0.4), rgba(0, 0, 0,);;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40) ), url(../images-index/img.png);
     background-size: cover;
     padding-top: 200px;
 padding-bottom: 200px;
