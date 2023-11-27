@@ -60,6 +60,22 @@
     gap: 30px;
 }
 
+.services-item::before {
+width: 20px;
+height: 20px;
+background-color: #2F303A;
+display: block;
+content: "";
+}
+
+.services-item::after {
+    width: 20px;
+    height: 20px;
+    background-color: #5F303A;
+    display: block;
+    content: "";
+    }
+
 .services-img {
     margin-bottom: 30px;
 }
