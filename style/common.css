@@ -10,6 +10,10 @@ body {
     font-family: 'Roboto';
 }
 
+.header {
+    border-bottom: solid #D4DBDA 1px ;
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;

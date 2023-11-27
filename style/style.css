@@ -40,6 +40,17 @@
 
 }
 
+.some {
+    width: 270px;
+     border-radius: 4px;
+    background: #F5F4FA;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-bottom: 30px;
+}
+
 .services {
     padding-top: 94px;
 }
@@ -49,12 +60,17 @@
     gap: 30px;
 }
 
+.services-img {
+    margin-bottom: 30px;
+}
+
 .section-headline {
+
     background-image: url(../images-index/img.png);
+    background-image: linear-gradient(to right, rgba(48, 49, 59, 0.4)0%, 21%, 0.4), rgba(0, 0, 0,);;
     background-size: cover;
     padding-top: 200px;
 padding-bottom: 200px;
-background: linear-gradient(rgba(47, 48, 58, 0.40));
 }
 
 .services-headline {
@@ -80,6 +96,7 @@ background: linear-gradient(rgba(47, 48, 58, 0.40));
 
 .product {
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 
@@ -132,7 +149,6 @@ box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0
     letter-spacing: 0.03em;
     text-align: center;
     color: #212121;
-    padding-top: 78px;
     margin-bottom: 50px;
 }
 
