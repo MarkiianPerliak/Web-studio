@@ -40,26 +40,35 @@
 
 }
 
-.some::before,
-.some::after {
+.some::before {
+    display: block;
     background: #F5F4FA;
     content: "";
     padding-bottom: 25px;
 padding-top: 25px;
 margin-bottom: 30px;
-}
-padding-right: 100px;
-padding-left: 100px;
+height: 120px;
+background-image: url(../images-index/antenna.png);
+background-repeat: no-repeat;
+background-position: center;
 
-.some::before {
-    background: #F5F4FA;
 }
 
-.some::after {
-    background-image: url(../images-index/antenna.png);
-    background: #F5F4FA;
-    background-size: 15px;
+.some:nth-child(2)::before {
+background-image: url(../images-index/clock.png);
+
 }
+
+.some:nth-child(3)::before {
+    background-image: url(../images-index/diagram.png);
+    
+    }
+
+    .some:nth-child(4)::before {
+        background-image: url(../images-index/astronaut.png);
+        
+        }
+
 
 .services {
     padding-top: 94px;
