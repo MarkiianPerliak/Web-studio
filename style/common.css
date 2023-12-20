@@ -31,9 +31,20 @@ body {
     align-items: center;
 }
 
+.header-svg-item {
+    display: flex;
+    gap: 10px;
+}
+
+.header-svg {
+    fill: #757575;
+    width: 16px;
+    height: 12px;
+}
+
 .header-contacts {
     display: flex;
-    margin-left: 344px;
+    margin-left: auto;
     gap: 50px;
     align-items: center;
 }
@@ -90,6 +101,11 @@ body {
     background: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.big-footer-box {
+    display: flex;
+    gap: 70px;
 }
 
 .footer-logo-link {
@@ -149,4 +165,41 @@ body {
     text-align: left;
     color: #FFFFFF99;
     margin-top: 9px;
+}
+
+.footer-box-r-headline {
+    color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+
+.footer-box-r-svg-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-box-r-svg {
+    width: 20px;
+height: 20px;
+fill: #FFFFFF;
+}
+
+.footer-box-r-svg-circle {
+    display: flex;
+    background-color: #FFFFFF1A;
+    border-radius: 50px;
+    width: 44px;
+height: 44px;
+justify-content: center;
+align-items: center;
+}
+
+.footer-box-r-svg-circle:hover {
+    background-color: #2196F3;
 }

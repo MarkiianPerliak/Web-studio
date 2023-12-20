@@ -31,10 +31,14 @@
                     <li class="header-item"><a class="header-link" href="#">Контакти</a></li>
                 </ul>
                 <ul class="header-contacts">
-                    <li class="header-contact"><a class="header-contact-link"
+                    <li class="header-contact header-svg-item"> <svg class="header-svg">
+                        <use href="./icons/icon.svg#icon-envelope-hover"></use>
+                    </svg> <a class="header-contact-link"
                             href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
-                    <li class="header-contact"><a class="header-contact-link" href="tel:+380961111111">+38 096 111 11
+                    <li class="header-contact header-svg-item"> <svg class="header-svg">
+                        <use href="./icons/icon.svg#icon-smartphone"></use>
+                    </svg> <a class="header-contact-link" href="tel:+380961111111">+38 096 111 11
                             11</a></li>
                 </ul>
             </nav>
@@ -142,8 +146,9 @@
         </div>
     </main>
     <footer id="footer">
-        <div class="container">
-            <a class="footer-logo-link" href="./index.html"><span class="footer-logo-color">Web</span><span
+        <div class="container big-footer-box">
+            <div class="footer-box-left">
+                <a class="footer-logo-link" href="./index.html"><span class="footer-logo-color">Web</span><span
                     class="footer-logo">Studio</span></a>
             <address class="footer-address"> м. Київ, пр-т Лесі Українки, 26</address>
             <ul class="footer-list">
@@ -154,6 +159,38 @@
                     <a class="footer-tel" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>
+            </div>
+            <div class="footer-box-right">
+<p class="footer-box-r-headline">приєднуйтесь</p>
+<ul class="footer-box-r-svg-list">
+    <li class="footer-box-r-svg-item"> <div class="footer-box-r-svg-circle">
+        <svg class="footer-box-r-svg">
+            <use href="./icons/icon.svg#icon-instagram"></use>#icon-linkedin
+        </svg>
+    </div> </li>
+    <li class="footer-box-r-svg-item"> <div class="footer-box-r-svg-circle">
+        <svg class="footer-box-r-svg">
+            <use href="./icons/icon.svg#icon-twitter"></use>#icon-facebook
+        </svg>
+    </div> </li>
+    <li class="footer-box-r-svg-item"> 
+        <div class="footer-box-r-svg-circle">
+            <svg class="footer-box-r-svg"> 
+                <use href="./icons/icon.svg#icon-facebook"></use>#icon-twitter
+            </svg>
+        </div>
+
+     </li>
+    <li class="footer-svg-item"> 
+        <div class="footer-box-r-svg-circle">
+            <svg class="footer-box-r-svg">
+                <use href="./icons/icon.svg#icon-linkedin"></use>#icon-instagram
+            </svg>
+        </div>
+
+     </li>
+</ul>
+            </div>
         </div>
     </footer>
 </body>
