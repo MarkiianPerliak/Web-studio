@@ -213,7 +213,10 @@ align-items: center;
 
 .svg-circle:hover {
     background-color: #2196F3;
-    
+}
+
+.svg-circle:hover .team-svg {
+    fill: #FFF;
 }
 
 .team-svg {
