@@ -34,13 +34,34 @@ body {
 .header-svg-item {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
 
-.header-svg {
+.header-svg-envelope {
     fill: #757575;
     width: 16px;
     height: 12px;
 }
+
+.header-svg-smartphone {
+    width: 10px;
+height: 16px;
+fill: #757575;
+}
+
+.header-svg-item:hover .header-svg-envelope {
+    fill: #2196F3;
+}
+
+.header-svg-item:hover .header-contact-link {
+    color: #2196F3;
+}
+
+.header-svg-item:hover .header-svg-smartphone {
+    fill: #2196F3;
+}
+
+
 
 .header-contacts {
     display: flex;
@@ -90,10 +111,6 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     color: #757575;
-}
-
-.header-contact-link:hover {
-    color: #2196F3;
 }
 
 #footer {

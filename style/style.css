@@ -248,27 +248,25 @@ letter-spacing: 1.08px;
     margin-top: 50px;
 } 
 
- .customers-item {
+ .customers-svg-box {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     padding-left: 32px;
     padding-right: 32px;
     padding-top: 16px;
     padding-bottom: 16px;
-
 }
 
-/* .customers-item:hover {
-    fill: #2196F3;
-    border: 1px solid #2196F3;
-}  */
-
- .customers-icon {
+.customers-icon {
     width: 106px;
     height: 60px;
     fill: #afb1b8;
 }
 
-/* .customers-icon:hover {
-fill: #2196F3;
-} */
+.customers-svg-box:hover {
+    border: 1px solid #2196F3; 
+}
+
+.customers-svg-box:hover .customers-icon {
+    fill: #2196F3;
+}
