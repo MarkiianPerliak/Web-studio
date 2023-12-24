@@ -63,13 +63,12 @@ background: #FFF;
     display: flex;
     flex-wrap: wrap;
     row-gap: 30px;
-    gap: 30px;
+    gap: 27px;
     justify-content: center;
 }
 
 .project-box {
     padding-left: 24px;
-    padding-right: 24px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -81,7 +80,6 @@ background: #FFF;
 }
 
 .projects-headline {
-
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
