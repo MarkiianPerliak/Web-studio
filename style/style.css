@@ -122,12 +122,16 @@ padding-bottom: 200px;
     justify-content: space-around;
 }
 
+.product-item2 {
+    position: relative;
+}
+
 .product-transp {
     width: 370px;
 height: 70px;
 background: rgba(47, 48, 58, 0.80);
 position: absolute;
-top: 1440px;
+top: 225px;
 padding-top: 27px;
 }
 
