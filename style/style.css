@@ -295,3 +295,134 @@ letter-spacing: 1.08px;
 .customers-svg-box:hover .customers-icon {
     fill: #2196F3;
 }
+
+.backdrop {
+    background: rgba(0, 0, 0, 0.20);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #FFF;
+    width: 528px;
+height: 581px;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.modal-headline {
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.6px;
+margin-bottom: 12px;
+}
+
+.modal-text {
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+}
+
+.modal-svg-box {
+    fill: #212121;
+    width: 18px;
+height: 18px;
+position: absolute;
+left: 12px;
+top: 11px;
+}
+
+.modal-box {
+    position: relative;
+}
+
+.modal-input {
+    width: 448px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+}
+
+.big-modal-input {
+    width: 448px;
+height: 120px;
+border-radius: 4px;
+border: 1px solid rgba(33, 33, 33, 0.20);
+}
+
+.modal-list {
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+}
+
+.modal-button {
+    display: block;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: none;
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+padding-left: 52px;
+padding-right: 52px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-top: 30px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.modal-text-box {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+.modal-text {
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+.modal-text-color {
+    color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
