@@ -55,7 +55,7 @@
     <section class="section-headline">
         <div class="container">
             <h1 class="headline-text">Ефективні рішення для вашого бізнесу</h1>
-            <button class="headline-button" type="button">Замовити послугу</button>
+            <button data-modal-open class="headline-button" type="button">Замовити послугу</button>
         </div>
     </section>
 
@@ -390,10 +390,17 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div data-modal class="backdrop is-hidden" >
         <div class="modal">
             <form action="">
-                
+                <div class="position-button">
+                    <button data-modal-close class="close-modal-button">
+                        <svg class="modal-svg-close-box">
+                            <use href="./icons/icon.svg#icon-close-black"></use>
+                        </svg>
+                    </button>
+                </div>
+
         <h2 class="modal-headline">Залиште свої дані, ми вам передзвонимо</h2>
         <ul class="modal-list">
             <li class="modal-item">
@@ -432,13 +439,14 @@
         </ul>
         <div class="modal-text-box">
             <span class="modal-text">Погоджуюся з розсилкою та приймаю </span><a
-            class="modal-text-color">Умови договору</a>
+            class="modal-text-color"> Умови договору</a>
         </div>
 
         <button class="modal-button" type="submit">Відправити</button>
     </form>
     </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>

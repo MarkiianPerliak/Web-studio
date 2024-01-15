@@ -426,6 +426,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
+margin-right: 3px;
 }
 
 .modal-text-color {
@@ -437,4 +438,30 @@ font-weight: 400;
 line-height: 24px;
 letter-spacing: 0.42px;
 text-decoration-line: underline;
+}
+
+.modal-svg-close-box {
+    width: 18px;
+height: 18px;
+fill: #000000;
+}
+
+.close-modal-button {
+    display: flex;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -25px;
+    top: -24px;
+}
+
+.position-button {
+    position: relative;
+}
+
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
 }
