@@ -378,16 +378,29 @@
                         </a>
 
                     </li>
-                    <li class="footer-svg-item">
+                    <!-- <li class="footer-svg-item">
                         <a class="footer-box-r-svg-circle">
                             <svg class="footer-box-r-svg">
                                 <use href="./icons/icon.svg#icon-youtube"></use>
                             </svg>
                         </a>
 
-                    </li>
+                    </li> -->
                 </ul>
             </div>
+            <div class="super-right-box">
+              <h3 class="super-right-headline">Підпишіться на розсилку</h3>
+              <div class="super-right-small-box">
+            <input class="super-right-input" placeholder="E-mail" type="text">
+            <button class="super-right-button">
+                <p class="super-right-button-text">
+                    Підписатися</p>
+                <svg class="super-right-svg">
+                    <use href="./icons/icon.svg#icon-icon-send"></use>
+                </svg>
+            </button>
+        </div>  
+        </div>
         </div>
     </footer>
     <div data-modal class="backdrop is-hidden" >
@@ -406,16 +419,16 @@
             <li class="modal-item">
                 <p class="modal-text">Ім'я</p>
                 <div class="modal-box">
-                    <input class="modal-input" type="text">
+                    <input required class="modal-input" type="text">
                     <svg class="modal-svg-box">
-                        <use href="./icons/icon.svg#icon-email-black"></use>
+                        <use href="./icons/icon.svg#icon-person-black"></use>
                     </svg>
                 </div>
             </li>
             <li>
                 <p class="modal-text">Телефон</p>
                 <div class="modal-box">
-                    <input class="modal-input" type="text">
+                    <input required class="modal-input" type="text">
                     <svg class="modal-svg-box">
                         <use href="./icons/icon.svg#icon-phone-black"></use>
                     </svg>
@@ -424,9 +437,9 @@
             <li>
                 <p class="modal-text">Пошта</p>
                 <div class="modal-box">
-                    <input class="modal-input" type="text">
+                    <input required class="modal-input" type="text">
                     <svg class="modal-svg-box">
-                        <use href="./icons/icon.svg#icon-person-black"></use>
+                        <use href="./icons/icon.svg#icon-email-black"></use>
                     </svg>
                 </div>
             </li>
@@ -438,9 +451,10 @@
             </li>
         </ul>
         <div class="modal-text-box">
+            <label class="label-for-modal-checkbox" for="modal-checkbox"> <span class="modal-text">Погоджуюся з розсилкою та приймаю</span><a  class="modal-text-color" href="#">Умови договору</a> </label>
             <input type="checkbox" name="" id="modal-checkbox">
-            <span class="modal-text">Погоджуюся з розсилкою та приймаю </span><a
-            class="modal-text-color"> Умови договору</a>
+            <!-- <span class="modal-text">Погоджуюся з розсилкою та приймаю </span><a
+            class="modal-text-color"> Умови договору</a> -->
         </div>
 
         <button class="modal-button" type="submit">Відправити</button>

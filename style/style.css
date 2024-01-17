@@ -371,6 +371,14 @@ padding-left: 30px;
     fill: #2196F3;
 }
 
+.modal-box:focus .modal-input {
+    border: 1px solid #2196F3; 
+}
+
+.modal-box:focus .modal-svg-box {
+    fill: #2196F3;
+}
+
 .big-modal-input {
     width: 448px;
 height: 120px;
@@ -391,6 +399,10 @@ padding-left: 16px;
 }
 
 .big-modal-input:hover {
+    border: 1px solid #2196F3;
+}
+
+.big-modal-input:focus {
     border: 1px solid #2196F3;
 }
 
@@ -440,6 +452,7 @@ line-height: 24px; /* 171.429% */
 letter-spacing: 0.42px;
 margin-right: 3px;
 margin-left: 8.4px;
+
 }
 
 .modal-text-color {
@@ -470,6 +483,7 @@ fill: #000000;
     position: absolute;
     right: -25px;
     top: -24px;
+    background-color: transparent;
 }
 
 .position-button {
@@ -479,5 +493,9 @@ fill: #000000;
 .is-hidden {
     opacity: 0;
     pointer-events: none;
+}
+
+.label-for-modal-checkbox {
+    text-align: ;
 }
 
