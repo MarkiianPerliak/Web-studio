@@ -6,12 +6,17 @@
     margin-right: auto;
 }
 
+.header-item {
+    position: relative;
+}
+
 body {
     font-family: 'Roboto';
 }
 
 .header {
     border-bottom: solid #D4DBDA 1px ;
+
 }
 
 .header-nav {
@@ -99,8 +104,34 @@ fill: #757575;
     color: #212121;
 }
 
+.header-link::after {
+    display: block;
+    position: absolute;
+    opacity: 0;
+    content: "";
+    background-color: #2196F3;
+    height: 3px;
+    margin-top: 32px;
+}
+
+.header-link-2::after {
+    width: 73px;
+}
+
+.header-link-1::after {
+    width: 45px;
+}
+
+.header-link-3::after {
+    width: 64px;
+}
+
 .header-link:hover {
     color: #2196F3;
+}
+
+.header-link:hover::after {
+    opacity: 1;
 }
 
 .header-contact-link {
