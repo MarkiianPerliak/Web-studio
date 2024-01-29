@@ -109,6 +109,7 @@ position: relative;
 padding-left: 24px;
 padding-top: 63px;
 padding-bottom: 63px;
+transition: 0.8s;
 }
 
 .projects-hover-text {
