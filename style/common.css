@@ -102,6 +102,8 @@ fill: #757575;
     letter-spacing: 0.02em;
     text-align: left;
     color: #212121;
+
+
 }
 
 .header-link::after {
@@ -112,15 +114,14 @@ fill: #757575;
     background-color: #2196F3;
     height: 3px;
     margin-top: 32px;
+    transition-property: background-color, color, box-shadow, fill, border, opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-2::after {
-    width: 73px;
-}
 
-.header-link-1::after {
-    width: 45px;
-}
+
+
 
 .header-link-3::after {
     width: 64px;
@@ -246,6 +247,9 @@ fill: #FFFFFF;
 height: 44px;
 justify-content: center;
 align-items: center;
+transition-property: background-color, color, box-shadow, fill, border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-box-r-svg-circle:hover {

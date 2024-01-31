@@ -52,6 +52,9 @@ background: #FFF;
     padding-top: 6px;
     padding-bottom: 6px;
     cursor: pointer;
+    transition-property: background-color, color, box-shadow, fill, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-button:hover {
@@ -109,7 +112,24 @@ position: relative;
 padding-left: 24px;
 padding-top: 63px;
 padding-bottom: 63px;
-transition: 0.8s;
+transition-property: background-color, color, box-shadow, fill, border, opacity;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-link-2 {
+    display: block;
+    position: absolute;
+    opacity: 2;
+    content: "";
+    background-color: #2196F3;
+    height: 3px;
+    margin-top: 32px;
+    
+}
+
+.header-link-1::after {
+    width: 45px;
 }
 
 .projects-hover-text {

@@ -1,3 +1,19 @@
+.header-link-2::after {
+    width: 73px;
+} 
+
+.header-link-1 {
+    display: block;
+    position: absolute;
+    opacity: 2;
+    content: "";
+    background-color: #2196F3;
+    height: 3px;
+    margin-top: 30px;
+    
+}
+
+
 .headline-text {
     color: #FFF;
     text-align: center;
@@ -234,6 +250,9 @@ box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0
 height: 44px;
 justify-content: center;
 align-items: center;
+transition-property: background-color, color, box-shadow, fill, border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-circle:hover {
@@ -248,6 +267,9 @@ align-items: center;
     width: 20px;
 height: 20px;
 fill: #AFB1B8;
+transition-property: background-color, color, box-shadow, fill, border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-customers {
@@ -280,12 +302,18 @@ letter-spacing: 1.08px;
     padding-right: 32px;
     padding-top: 16px;
     padding-bottom: 16px;
+    transition-property: background-color, color, box-shadow, fill, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
     width: 106px;
     height: 60px;
     fill: #afb1b8;
+transition-property: background-color, color, box-shadow, fill, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-svg-box:hover {
@@ -349,6 +377,9 @@ height: 18px;
 position: absolute;
 left: 12px;
 top: 11px;
+transition-property: background-color, color, box-shadow, fill, border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-box {
@@ -361,6 +392,9 @@ height: 40px;
 border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 padding-left: 30px;
+transition-property: background-color, color, box-shadow, fill, border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-box:hover .modal-input {
@@ -386,6 +420,9 @@ border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 padding-bottom: 87px;
 padding-left: 16px;
+transition-property: background-color, color, box-shadow, fill, border;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .big-modal-input::placeholder {
@@ -493,9 +530,5 @@ fill: #000000;
 .is-hidden {
     opacity: 0;
     pointer-events: none;
-}
-
-.label-for-modal-checkbox {
-    text-align: ;
 }
 
