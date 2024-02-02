@@ -1,7 +1,3 @@
-/* .header-link-2::after {
-    width: 73px;
-}  */
-
 .header-link-active::after {
     display: block;
     width: 100%;

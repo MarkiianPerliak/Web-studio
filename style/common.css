@@ -108,7 +108,9 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     color: #212121;
-
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -120,21 +122,10 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     color: #757575;
-}
-
-/* .header-contact-link::after {
-    display: block;
-    position: absolute;
-    opacity: 0;
-    content: "";
-    background-color: #2196F3;
-    height: 3px;
-    width: 100%;
-    margin-top: 33px;
-    transition-property: background-color, color, box-shadow, fill, border, opacity;
+    transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 
 .header-link::after {
     display: block;
@@ -149,19 +140,6 @@ body {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .header-contact-link:hover::after {
-    opacity: 1;
-} */
-
-
-/* .header-link-3::after {
-    width: 64px;
-}
-
-.header-link:hover {
-    color: #2196F3;
-} */
 
 .header-link:hover::after {
     opacity: 1;
