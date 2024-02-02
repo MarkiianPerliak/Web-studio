@@ -117,10 +117,10 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link-2 {
+.header-link-active::after {
     display: block;
-    position: absolute;
-    opacity: 2;
+    width: 100%;
+    opacity: 1;
     content: "";
     background-color: #2196F3;
     height: 3px;
@@ -128,9 +128,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
-.header-link-1::after {
+/* .header-link-1::after {
     width: 45px;
-}
+} */
 
 .projects-hover-text {
     color: #FFF;

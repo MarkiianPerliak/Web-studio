@@ -113,6 +113,7 @@ fill: #757575;
     content: "";
     background-color: #2196F3;
     height: 3px;
+    width: 100%;
     margin-top: 32px;
     transition-property: background-color, color, box-shadow, fill, border, opacity;
     transition-duration: 250ms;
@@ -121,15 +122,13 @@ fill: #757575;
 
 
 
-
-
-.header-link-3::after {
+/* .header-link-3::after {
     width: 64px;
 }
 
 .header-link:hover {
     color: #2196F3;
-}
+} */
 
 .header-link:hover::after {
     opacity: 1;
