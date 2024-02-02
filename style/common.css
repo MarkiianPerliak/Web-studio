@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-    border-bottom: solid #D4DBDA 1px ;
+    border-bottom: solid #D4DBDA 1px;
 
 }
 
@@ -46,12 +46,18 @@ body {
     fill: #757575;
     width: 16px;
     height: 12px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-svg-smartphone {
     width: 10px;
-height: 16px;
-fill: #757575;
+    height: 16px;
+    fill: #757575;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-svg-item:hover .header-svg-envelope {
@@ -240,13 +246,13 @@ fill: #757575;
 
 .footer-box-r-headline {
     color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 
 .footer-box-r-svg-list {
@@ -257,8 +263,8 @@ text-transform: uppercase;
 
 .footer-box-r-svg {
     width: 20px;
-height: 20px;
-fill: #FFFFFF;
+    height: 20px;
+    fill: #FFFFFF;
 }
 
 .footer-box-r-svg-circle {
@@ -266,12 +272,12 @@ fill: #FFFFFF;
     background-color: #FFFFFF1A;
     border-radius: 50px;
     width: 44px;
-height: 44px;
-justify-content: center;
-align-items: center;
-transition-property: background-color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-box-r-svg-circle:hover {
@@ -280,9 +286,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .super-right-svg {
     width: 24px;
-height: 24px;
-fill: #FFF;
-margin-left: 10px;
+    height: 24px;
+    fill: #FFF;
+    margin-left: 10px;
 }
 
 
@@ -294,56 +300,58 @@ margin-left: 10px;
 
 .super-right-headline {
     color: #FFF;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 
 .super-right-input {
     display: flex;
     width: 358px;
-height: 50px;
-flex-shrink: 0;
-border-radius: 4px;
-border: 1px solid rgba(255, 255, 255, 0.30);
-background: rgba(33, 150, 243, 0.00);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-flex-direction: column;
-justify-content: center;
-padding-left: 16px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
 }
 
 .super-right-input::placeholder {
     color: rgba(255, 255, 255, 0.60);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 125% */
-letter-spacing: 0.48px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: 0.48px;
 }
 
 .super-right-button {
     display: flex;
     border: none;
     width: 200px;
-height: 50px;
-flex-shrink: 0;
+    height: 50px;
+    flex-shrink: 0;
     border-radius: 4px;
-background: #2196F3;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-color: #FFF;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px; /* 187.5% */
-letter-spacing: 0.96px;
-align-items: center;
-padding-left: 28px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+    align-items: center;
+    padding-left: 28px;
 
 }
