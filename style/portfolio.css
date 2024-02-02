@@ -2,16 +2,6 @@
     font-family: 'Roboto';
 }
 
-a {
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
-
-
 .projects {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -19,7 +9,10 @@ li {
 
 .projects-article {
     border: 1px solid #EEE;
-background: #FFF;
+    background: #FFF;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-article:hover {
@@ -52,7 +45,7 @@ background: #FFF;
     padding-top: 6px;
     padding-bottom: 6px;
     cursor: pointer;
-    transition-property: background-color, color, box-shadow, fill, border;
+    transition-property: background-color, color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -60,6 +53,7 @@ background: #FFF;
 .project-button:hover {
     color: #FFFFFF;
     background: #2196F3;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
 
 .projects-list2 {
@@ -79,7 +73,7 @@ background: #FFF;
 .projects-article {
     border: 1px solid #EEE;
     background: #FFF;
-position: relative;
+    position: relative;
 }
 
 .projects-headline {
@@ -109,12 +103,16 @@ position: relative;
     background-color: rgba(33, 150, 243, 0.90);
     opacity: 0;
     position: absolute;
-padding-left: 24px;
-padding-top: 63px;
-padding-bottom: 63px;
-transition-property: background-color, color, box-shadow, fill, border, opacity;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    padding-left: 24px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projects-article:hover .projects-hover-box {
+    opacity: 1;
 }
 
 .header-link-active::after {
@@ -125,7 +123,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #2196F3;
     height: 3px;
     margin-top: 32px;
-    
+}
+
+.header-link-active {
+    color: #2196F3;
 }
 
 /* .header-link-1::after {
@@ -134,15 +135,13 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .projects-hover-text {
     color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 155.556% */
-letter-spacing: 0.54px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 155.556% */
+    letter-spacing: 0.54px;
 
 }
 
-.projects-article:hover .projects-hover-box {
-    opacity: 1;
-}
