@@ -106,9 +106,7 @@
     padding-left: 24px;
     padding-top: 63px;
     padding-bottom: 63px;
-    transition-property: opacity;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity 250sm cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .projects-article:hover .projects-hover-box {
