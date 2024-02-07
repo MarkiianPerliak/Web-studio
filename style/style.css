@@ -333,6 +333,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: scale(1, 1);
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -341,10 +343,14 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #FFF;
-
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.is-hidden .modal {
+    transform: scale(0);
 }
 
 .modal-headline {
