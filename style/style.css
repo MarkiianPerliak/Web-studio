@@ -36,6 +36,10 @@
     padding-bottom: 200px;
 }
 
+.headline-buttons {
+    position: relative;
+}
+
 .headline-button {
     display: block;
     font-size: 16px;
@@ -48,10 +52,47 @@
     border-radius: 4px;
     height: 50px;
     width: 216px;
-    margin-top: 30px;
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
     border: none;
+
+}
+
+.headline-catch-button {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    top: -40px;
+    left: 345px;
+    text-align: center;
+    color: white;
+    background: #2196F3;
+    border-radius: 4px;
+    border: none;
+    animation-iteration-count: infinite;
+    animation-name: headline-catch-button;
+    animation-duration: 8s;
+}
+
+@keyframes headline-catch-button {
+    6% {
+        top: 64px;
+    }
+
+    24% {
+        left: 730px;
+    }
+
+    50% {
+        top: -64px;
+    }
+
+    100% {
+        right: 700px;
+    }
 
 }
 
