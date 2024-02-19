@@ -1,7 +1,3 @@
-.body {
-    font-family: 'Roboto';
-}
-
 .projects {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -112,24 +108,6 @@
 .projects-article:hover .projects-hover-box {
     opacity: 1;
 }
-
-.header-link-active::after {
-    display: block;
-    width: 100%;
-    opacity: 1;
-    content: "";
-    background-color: #2196F3;
-    height: 3px;
-    margin-top: 32px;
-}
-
-.header-link-active {
-    color: #2196F3;
-}
-
-/* .header-link-1::after {
-    width: 45px;
-} */
 
 .projects-hover-text {
     color: #FFF;

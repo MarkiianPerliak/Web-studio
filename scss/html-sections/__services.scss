@@ -1,0 +1,70 @@
+.some::before {
+    display: block;
+    background: #F5F4FA;
+    content: "";
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+    height: 120px;
+    background-image: url(../images-index/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.some:nth-child(2)::before {
+    background-image: url(../images-index/clock.png);
+
+}
+
+.some:nth-child(3)::before {
+    background-image: url(../images-index/diagram.png);
+
+}
+
+.some:nth-child(4)::before {
+    background-image: url(../images-index/astronaut.png);
+
+}
+
+
+.services {
+    padding-top: 94px;
+}
+
+.services-list {
+    display: flex;
+    gap: 30px;
+}
+
+.services-img {
+    margin-bottom: 30px;
+}
+
+.section-headline {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images-index/img.png);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.services-headline {
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.services-info {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+}

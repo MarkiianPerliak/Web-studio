@@ -1,0 +1,61 @@
+.hero-text {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    /* 136.364% */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: headline-text-animation;
+    animation-duration: 2s;
+    animation-iteration-count: calc(1);
+
+}
+
+@keyframes headline-text-animation {
+    0% {
+        transform: translate(-1500px, 0);
+        opacity: 0;
+    }
+
+    50% {
+        text-shadow: 3px 2px 1px;
+    }
+
+    100% {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+
+}
+
+.hero {
+    background: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.hero-button {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: white;
+    background: #2196F3;
+    border-radius: 4px;
+    height: 50px;
+    width: 216px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+
+}
