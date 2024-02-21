@@ -11,3 +11,9 @@
 .header-link-active {
     color: #2196F3;
 }
+
+.headline {
+    background-color: var(--cap-color);
+    padding: 200px 0;
+    background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url(../images-index/img.png);
+}

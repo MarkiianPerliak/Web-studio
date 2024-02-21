@@ -602,6 +602,12 @@ summary {
   color: #2196F3;
 }
 
+.headline {
+  background-color: var(--cap-color);
+  padding: 200px 0;
+  background-image: linear-gradient(to top, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images-index/img.png);
+}
+
 .header-link-active::after {
   display: block;
   width: 100%;
@@ -1214,4 +1220,56 @@ summary {
 .is-hidden {
   opacity: 0;
   pointer-events: none;
+}
+
+.customers {
+  background: #FFF;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.customers-headline {
+  color: #212121;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.customers-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.customers-svg-box {
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-svg-box:hover {
+  border: 1px solid #2196F3;
+}
+
+.customers-svg-box:hover .customers-icon {
+  fill: #2196F3;
 }/*# sourceMappingURL=main.css.map */
