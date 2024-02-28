@@ -1,3 +1,6 @@
-@import "./portfolio-sections/_header";
-@import "./portfolio-sections/_footer";
+@import "./base/_reset";
+@import "./base/_common";
+@import "./base/_modern-normalize";
+@import "./components/_header";
 @import "./portfolio-sections/_projects";
+@import "./components/_footer";
