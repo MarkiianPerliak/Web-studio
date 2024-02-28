@@ -107,7 +107,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #212121;
+    color: $title-color;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -121,7 +121,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-align: left;
-    color: #757575;
+    color: $text-color;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -146,7 +146,7 @@ body {
 }
 
 .header-link:hover {
-    color: #2196F3;
+    color: $hover-headline-color;
 }
 
 
@@ -175,7 +175,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #2196F3;
+    color: $hover-headline-color;
 
 }
 
@@ -186,7 +186,7 @@ body {
     line-height: 1.38;
     letter-spacing: 0.03em;
     text-align: left;
-    color: white;
+    color: $headline-color;
 }
 
 .footer-address {
@@ -196,7 +196,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     text-align: left;
-    color: #FFFFFF;
+    color: $headline-color;
     font-style: normal;
 }
 
@@ -223,7 +223,7 @@ body {
 }
 
 .footer-box-r-headline {
-    color: #FFF;
+    color: $headline-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -277,7 +277,7 @@ body {
 }
 
 .super-right-headline {
-    color: #FFF;
+    color: $headline-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -319,7 +319,7 @@ body {
     height: 50px;
     flex-shrink: 0;
     border-radius: 4px;
-    background: #2196F3;
+    background: $bg-button-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     color: #FFF;
     font-family: Roboto;

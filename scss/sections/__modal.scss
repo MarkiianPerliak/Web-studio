@@ -29,7 +29,7 @@
 }
 
 .modal-headline {
-    color: #212121;
+    color: $title-color;
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
@@ -41,7 +41,7 @@
 }
 
 .modal-text {
-    color: #757575;
+    color: $text-color;
     font-family: Roboto;
     font-size: 12px;
     font-style: normal;
@@ -78,7 +78,7 @@
 }
 
 .modal-box:hover .modal-input {
-    border: 1px solid #2196F3;
+    border: 1px solid $hover-headline-color;
 }
 
 .modal-box:hover .modal-svg-box {
@@ -86,7 +86,7 @@
 }
 
 .modal-box:focus .modal-input {
-    border: 1px solid #2196F3;
+    border: 1px solid $hover-headline-color;
 }
 
 .modal-box:focus .modal-svg-box {
@@ -116,11 +116,11 @@
 }
 
 .big-modal-input:hover {
-    border: 1px solid #2196F3;
+    border: 1px solid $hover-headline-color;
 }
 
 .big-modal-input:focus {
-    border: 1px solid #2196F3;
+    border: 1px solid $hover-headline-color;
 }
 
 .modal-list {
@@ -132,10 +132,10 @@
 .modal-button {
     display: block;
     border-radius: 4px;
-    background: #2196F3;
+    background: $bg-button-color;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border: none;
-    color: #FFF;
+    color: $headline-color;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -175,7 +175,7 @@
 }
 
 .modal-text-color {
-    color: #2196F3;
+    color: $hover-headline-color;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;

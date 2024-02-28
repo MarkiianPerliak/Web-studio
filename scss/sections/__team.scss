@@ -31,7 +31,7 @@
     line-height: 1.16;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: $title-color;
     margin-bottom: 50px;
 }
 
@@ -42,7 +42,7 @@
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #212121;
+    color: $title-color;
     margin-top: 30px;
     margin-bottom: 10px;
 
@@ -55,7 +55,7 @@
     line-height: 1.18;
     letter-spacing: 0.03em;
     text-align: center;
-    color: #757575;
+    color: $text-color;
     padding-bottom: 30px;
 
 }
