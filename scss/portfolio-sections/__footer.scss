@@ -1,0 +1,182 @@
+#footer {
+
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.big-footer-box {
+    display: flex;
+    gap: 70px;
+}
+
+.footer-logo-link {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-logo-color {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: $hover-headline-color;
+
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.38;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: $headline-color;
+}
+
+.footer-address {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: $headline-color;
+    font-style: normal;
+}
+
+.footer-mail {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF99;
+    margin-top: 9px;
+}
+
+.footer-tel {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF99;
+    margin-top: 9px;
+}
+
+.footer-box-r-headline {
+    color: $headline-color;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.footer-box-r-svg-list {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-box-r-svg {
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.footer-box-r-svg-circle {
+    display: flex;
+    background-color: #FFFFFF1A;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-box-r-svg-circle:hover {
+    background-color: #2196F3;
+}
+
+.super-right-svg {
+    width: 24px;
+    height: 24px;
+    fill: #FFF;
+    margin-left: 10px;
+}
+
+
+.super-right-small-box {
+    display: flex;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.super-right-headline {
+    color: $headline-color;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.super-right-input {
+    display: flex;
+    width: 358px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: rgba(33, 150, 243, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 16px;
+}
+
+.super-right-input::placeholder {
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: 0.48px;
+}
+
+.super-right-button {
+    display: flex;
+    border: none;
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: $bg-button-color;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+    align-items: center;
+    padding-left: 28px;
+
+}
