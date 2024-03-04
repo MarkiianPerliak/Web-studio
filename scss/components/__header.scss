@@ -136,3 +136,23 @@
 .header-link:hover {
     color: $hover-headline-color;
 }
+
+.header-current::after {
+    display: block;
+    position: absolute;
+    content: "";
+    opacity: 1;
+    background-color: #2196F3;
+    height: 3px;
+    width: 100%;
+    margin-top: 32px;
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-current {
+    color: $hover-headline-color;
+}
+
+   
