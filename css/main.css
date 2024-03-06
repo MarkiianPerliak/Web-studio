@@ -265,38 +265,32 @@ summary {
   display: list-item;
 }
 
-.header-item {
-  position: relative;
-}
-
 .header {
   border-bottom: solid #D4DBDA 1px;
 }
-
-.header-nav {
+.header__item {
+  position: relative;
+}
+.header__nav {
   display: flex;
   justify-content: space-between;
 }
-
-.header-logo-link {
+.header__logo__link {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-
-.header-list {
+.header__list {
   display: flex;
   margin-left: 93px;
   gap: 50px;
   align-items: center;
 }
-
-.header-svg-item {
+.header__svg__item {
   display: flex;
   gap: 10px;
   align-items: center;
 }
-
-.header-svg-envelope {
+.header__svg__envelope {
   fill: #757575;
   width: 16px;
   height: 12px;
@@ -304,8 +298,7 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-svg-smartphone {
+.header__svg__smartphone {
   width: 10px;
   height: 16px;
   fill: #757575;
@@ -313,27 +306,22 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-svg-item:hover .header-svg-envelope {
+.header__svg__item:hover .header__svg__envelope {
   fill: #2196F3;
 }
-
-.header-svg-item:hover .header-contact-link {
+.header__svg__item:hover .header__contact__link {
   color: #2196F3;
 }
-
-.header-svg-item:hover .header-svg-smartphone {
+.header__svg__item:hover .header__svg__smartphone {
   fill: #2196F3;
 }
-
-.header-contacts {
+.header__contacts {
   display: flex;
   margin-left: auto;
   gap: 50px;
   align-items: center;
 }
-
-.header-logo-color {
+.header__logo__color {
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -342,8 +330,7 @@ summary {
   text-align: left;
   color: #2196F3;
 }
-
-.header-logo {
+.header__logo {
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 400;
@@ -352,8 +339,7 @@ summary {
   text-align: left;
   color: #000000;
 }
-
-.header-link {
+.header__link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -364,8 +350,7 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-contact-link {
+.header__contact__link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -376,8 +361,7 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-link::after {
+.header__link::after {
   display: block;
   position: absolute;
   opacity: 0;
@@ -390,16 +374,13 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-link:hover::after {
+.header__link:hover::after {
   opacity: 1;
 }
-
-.header-link:hover {
+.header__link:hover {
   color: #2196f3;
 }
-
-.header-current::after {
+.header__current::after {
   display: block;
   position: absolute;
   content: "";
@@ -412,12 +393,17 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.header-current {
+.header__current {
   color: #2196f3;
 }
 
-.hero-text {
+.hero {
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images-index/img.png);
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero__text {
   color: #fff;
   text-align: center;
   font-family: "Roboto";
@@ -434,7 +420,6 @@ summary {
   animation-duration: 2s;
   animation-iteration-count: 1;
 }
-
 @keyframes headline-text-animation {
   0% {
     transform: translate(-1500px, 0);
@@ -448,14 +433,7 @@ summary {
     opacity: 1;
   }
 }
-.hero {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images-index/img.png);
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.hero-button {
+.hero__button {
   display: block;
   font-size: 16px;
   font-weight: 700;
@@ -478,26 +456,22 @@ summary {
   background: #F5F4FA;
   padding-bottom: 94px;
 }
-
-.team-list {
+.team__list {
   display: flex;
   justify-content: space-around;
 }
-
-.team-article {
+.team__article {
   border-radius: 0px 0px 4px 4px;
   background: #FFF;
   padding-bottom: 42px;
   /* material shadow v1 */
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-
-.team-img {
+.team__img {
   width: 270px;
   height: 260px;
 }
-
-.team-headline {
+.team__headline {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -506,8 +480,7 @@ summary {
   color: #212121;
   margin-bottom: 50px;
 }
-
-.team-name {
+.team__name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.18;
@@ -517,8 +490,7 @@ summary {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
-.team-info {
+.team__info {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.18;
@@ -527,14 +499,12 @@ summary {
   color: #757575;
   padding-bottom: 30px;
 }
-
-.team-svg-list {
+.team__svg__list {
   display: flex;
   gap: 10px;
   justify-content: center;
 }
-
-.svg-circle {
+.team__circle {
   display: flex;
   background-color: transparent;
   border-radius: 50px;
@@ -546,16 +516,13 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.svg-circle:hover {
+.team__circle:hover {
   background-color: #2196F3;
 }
-
-.svg-circle:hover .team-svg {
+.team__circle:hover .team__svg {
   fill: #FFF;
 }
-
-.team-svg {
+.team__svg {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
@@ -568,17 +535,14 @@ summary {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.product-list2 {
+.product__list2 {
   display: flex;
   justify-content: space-around;
 }
-
-.product-item2 {
+.product__item2 {
   position: relative;
 }
-
-.product-transp {
+.product__transp {
   width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
@@ -586,8 +550,7 @@ summary {
   top: 225px;
   padding-top: 27px;
 }
-
-.product-transp-text {
+.product__transp__text {
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -598,8 +561,7 @@ summary {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-
-.product-headline {
+.product__headline {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.16;
@@ -609,7 +571,10 @@ summary {
   margin-bottom: 50px;
 }
 
-.some::before {
+.services {
+  padding-top: 94px;
+}
+.services__some::before {
   display: block;
   background: #F5F4FA;
   content: "";
@@ -621,34 +586,24 @@ summary {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.some:nth-child(2)::before {
+.services__some:nth-child(2)::before {
   background-image: url(../images-index/clock.png);
 }
-
-.some:nth-child(3)::before {
+.services__some:nth-child(3)::before {
   background-image: url(../images-index/diagram.png);
 }
-
-.some:nth-child(4)::before {
+.services__some:nth-child(4)::before {
   background-image: url(../images-index/astronaut.png);
 }
-
-.services {
-  padding-top: 94px;
-}
-
-.services-list {
+.services__list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
-
-.services-img {
+.services__img {
   margin-bottom: 30px;
 }
-
-.services-headline {
+.services__headline {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -657,8 +612,7 @@ summary {
   color: #212121;
   margin-bottom: 10px;
 }
-
-.services-info {
+.services__info {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -667,7 +621,16 @@ summary {
   color: #757575;
 }
 
-.backdrop {
+.is-hidden .modal {
+  transform: scale(0);
+}
+
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__backdrop {
   background: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
@@ -692,12 +655,7 @@ summary {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.is-hidden .modal {
-  transform: scale(0);
-}
-
-.modal-headline {
+.modal__headline {
   color: #212121;
   text-align: center;
   font-family: Roboto;
@@ -708,8 +666,7 @@ summary {
   letter-spacing: 0.6px;
   margin-bottom: 12px;
 }
-
-.modal-text {
+.modal__text {
   color: #757575;
   font-family: Roboto;
   font-size: 12px;
@@ -718,8 +675,7 @@ summary {
   line-height: normal;
   letter-spacing: 0.12px;
 }
-
-.modal-svg-box {
+.modal__svg-box {
   fill: #212121;
   width: 18px;
   height: 18px;
@@ -730,12 +686,10 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-box {
+.modal__box {
   position: relative;
 }
-
-.modal-input {
+.modal__input {
   width: 448px;
   height: 40px;
   border-radius: 4px;
@@ -745,24 +699,19 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-box:hover .modal-input {
+.modal__box:hover .modal__input {
   border: 1px solid #2196f3;
 }
-
-.modal-box:hover .modal-svg-box {
+.modal__box:hover .modal__svg-box {
   fill: #2196F3;
 }
-
-.modal-box:focus .modal-input {
+.modal__box:focus .modal__input {
   border: 1px solid #2196f3;
 }
-
-.modal-box:focus .modal-svg-box {
+.modal__box:focus .modal__svg-box {
   fill: #2196F3;
 }
-
-.big-modal-input {
+.modal__big-input {
   width: 448px;
   height: 120px;
   border-radius: 4px;
@@ -773,8 +722,7 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.big-modal-input::-moz-placeholder {
+.modal__big-input::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-family: Roboto;
   font-size: 12px;
@@ -783,8 +731,7 @@ summary {
   line-height: normal;
   letter-spacing: 0.12px;
 }
-
-.big-modal-input::placeholder {
+.modal__big-input::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-family: Roboto;
   font-size: 12px;
@@ -793,22 +740,18 @@ summary {
   line-height: normal;
   letter-spacing: 0.12px;
 }
-
-.big-modal-input:hover {
+.modal__big-input:hover {
   border: 1px solid #2196f3;
 }
-
-.big-modal-input:focus {
+.modal__big-input:focus {
   border: 1px solid #2196f3;
 }
-
-.modal-list {
+.modal__list {
   display: flex;
   row-gap: 10px;
   flex-direction: column;
 }
-
-.modal-button {
+.modal__button {
   display: block;
   border-radius: 4px;
   background: #2196f3;
@@ -831,14 +774,12 @@ summary {
   margin-left: auto;
   margin-right: auto;
 }
-
-.modal-text-box {
+.modal__text-box {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
-
-.modal-text {
+.modal__text {
   color: #757575;
   font-family: Roboto;
   font-size: 14px;
@@ -850,8 +791,7 @@ summary {
   margin-right: 3px;
   margin-left: 8.4px;
 }
-
-.modal-text-color {
+.modal__text-color {
   color: #2196f3;
   font-family: Roboto;
   font-size: 14px;
@@ -861,14 +801,12 @@ summary {
   letter-spacing: 0.42px;
   text-decoration-line: underline;
 }
-
-.modal-svg-close-box {
+.modal__svg-close-box {
   width: 18px;
   height: 18px;
   fill: #000000;
 }
-
-.close-modal-button {
+.modal__close__button {
   width: 30px;
   height: 30px;
   display: flex;
@@ -882,13 +820,8 @@ summary {
   background-color: transparent;
 }
 
-.position-button {
+.position__button {
   position: relative;
-}
-
-.is-hidden {
-  opacity: 0;
-  pointer-events: none;
 }
 
 .customers {
@@ -896,8 +829,7 @@ summary {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-.customers-headline {
+.customers__headline {
   color: #212121;
   text-align: center;
   font-family: Roboto;
@@ -907,14 +839,12 @@ summary {
   line-height: normal;
   letter-spacing: 1.08px;
 }
-
-.customers-list {
+.customers__list {
   display: flex;
   gap: 30px;
   margin-top: 50px;
 }
-
-.customers-svg-box {
+.customers__svg__box {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   padding-left: 32px;
@@ -925,8 +855,7 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.customers-icon {
+.customers__icon {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
@@ -934,32 +863,27 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.customers-svg-box:hover {
+.customers__svg__box:hover {
   border: 1px solid #2196F3;
 }
-
-.customers-svg-box:hover .customers-icon {
+.customers__svg__box:hover .customers__icon {
   fill: #2196F3;
 }
 
-#footer {
+.footer {
   background: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-.big-footer-box {
+.footer__big__box {
   display: flex;
   gap: 70px;
 }
-
-.footer-logo-link {
+.footer__logo__link {
   display: block;
   margin-bottom: 20px;
 }
-
-.footer-logo-color {
+.footer__logo__color {
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -968,8 +892,7 @@ summary {
   text-align: left;
   color: #2196f3;
 }
-
-.footer-logo {
+.footer__logo {
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 400;
@@ -978,8 +901,7 @@ summary {
   text-align: left;
   color: #fff;
 }
-
-.footer-address {
+.footer__address {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -988,8 +910,7 @@ summary {
   color: #fff;
   font-style: normal;
 }
-
-.footer-mail {
+.footer__mail {
   display: block;
   font-size: 14px;
   font-weight: 400;
@@ -999,8 +920,7 @@ summary {
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
 }
-
-.footer-tel {
+.footer__tel {
   display: block;
   font-size: 14px;
   font-weight: 400;
@@ -1010,8 +930,7 @@ summary {
   color: rgba(255, 255, 255, 0.6);
   margin-top: 9px;
 }
-
-.footer-box-r-headline {
+.footer__box__r__headline {
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
@@ -1021,20 +940,17 @@ summary {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-
-.footer-box-r-svg-list {
+.footer__box__r__svg__list {
   display: flex;
   gap: 10px;
   margin-top: 20px;
 }
-
-.footer-box-r-svg {
+.footer__box__r__svg {
   width: 20px;
   height: 20px;
   fill: #FFFFFF;
 }
-
-.footer-box-r-svg-circle {
+.footer__box__r__svg__circle {
   display: flex;
   background-color: rgba(255, 255, 255, 0.1019607843);
   border-radius: 50px;
@@ -1046,25 +962,21 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer-box-r-svg-circle:hover {
+.footer__box__r__svg__circle:hover {
   background-color: #2196F3;
 }
-
-.super-right-svg {
+.footer__super__right__svg {
   width: 24px;
   height: 24px;
   fill: #FFF;
   margin-left: 10px;
 }
-
-.super-right-small-box {
+.footer__super__right__small__box {
   display: flex;
   margin-top: 20px;
   gap: 12px;
 }
-
-.super-right-headline {
+.footer__super__right__headline {
   color: #fff;
   font-family: Roboto;
   font-size: 14px;
@@ -1074,8 +986,7 @@ summary {
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
-
-.super-right-input {
+.footer__super__right__input {
   display: flex;
   width: 358px;
   height: 50px;
@@ -1088,8 +999,7 @@ summary {
   justify-content: center;
   padding-left: 16px;
 }
-
-.super-right-input::-moz-placeholder {
+.footer__super__right__input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 16px;
@@ -1099,8 +1009,7 @@ summary {
   /* 125% */
   letter-spacing: 0.48px;
 }
-
-.super-right-input::placeholder {
+.footer__super__right__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 16px;
@@ -1110,8 +1019,7 @@ summary {
   /* 125% */
   letter-spacing: 0.48px;
 }
-
-.super-right-button {
+.footer__super__right__button {
   display: flex;
   border: none;
   width: 200px;

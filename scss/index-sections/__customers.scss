@@ -2,50 +2,53 @@
     background: #FFF;
     padding-top: 94px;
     padding-bottom: 94px;
+
+    &__headline {
+        color: $title-color;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1.08px;
+    }
+    
+    &__list {
+        display: flex;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    
+    &__svg__box {
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        transition-property: border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__icon {
+        width: 106px;
+        height: 60px;
+        fill: #afb1b8;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__svg__box:hover {
+        border: 1px solid #2196F3;
+    }
+    
+    &__svg__box:hover &__icon {
+        fill: #2196F3;
+    }
+
+
 }
 
-.customers-headline {
-    color: $title-color;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 1.08px;
-}
-
-.customers-list {
-    display: flex;
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.customers-svg-box {
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.customers-icon {
-    width: 106px;
-    height: 60px;
-    fill: #afb1b8;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.customers-svg-box:hover {
-    border: 1px solid #2196F3;
-}
-
-.customers-svg-box:hover .customers-icon {
-    fill: #2196F3;
-}

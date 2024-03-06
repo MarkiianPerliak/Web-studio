@@ -3,95 +3,97 @@
     background: #F5F4FA;
     padding-bottom: 94px;
 
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    &__article {
+        border-radius: 0px 0px 4px 4px;
+        background: #FFF;
+        padding-bottom: 42px;
+    
+        /* material shadow v1 */
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    }
+    
+    &__img {
+        width: 270px;
+        height: 260px;
+    }
+    
+    &__headline {
+    
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $title-color;
+        margin-bottom: 50px;
+    }
+    
+    &__name {
+    
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $title-color;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    
+    }
+    
+    &__info {
+    
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.18;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $text-color;
+        padding-bottom: 30px;
+    
+    }
+    
+    &__svg__list {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    &__circle {
+        display: flex;
+        background-color: transparent;
+        border-radius: 50px;
+        width: 44px;
+        height: 44px;
+        justify-content: center;
+        align-items: center;
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    &__circle:hover {
+        background-color: #2196F3;
+    }
+    
+    &__circle:hover &__svg {
+        fill: #FFF;
+    }
+    
+    &__svg {
+        width: 20px;
+        height: 20px;
+        fill: #AFB1B8;
+        transition-property: fill;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+
 }
 
-.team-list {
-    display: flex;
-    justify-content: space-around;
-}
-
-.team-article {
-    border-radius: 0px 0px 4px 4px;
-    background: #FFF;
-    padding-bottom: 42px;
-
-    /* material shadow v1 */
-    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
-
-.team-img {
-    width: 270px;
-    height: 260px;
-}
-
-.team-headline {
-
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: $title-color;
-    margin-bottom: 50px;
-}
-
-.team-name {
-
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: $title-color;
-    margin-top: 30px;
-    margin-bottom: 10px;
-
-}
-
-.team-info {
-
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: $text-color;
-    padding-bottom: 30px;
-
-}
-
-.team-svg-list {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-}
-
-.svg-circle {
-    display: flex;
-    background-color: transparent;
-    border-radius: 50px;
-    width: 44px;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.svg-circle:hover {
-    background-color: #2196F3;
-}
-
-.svg-circle:hover .team-svg {
-    fill: #FFF;
-}
-
-.team-svg {
-    width: 20px;
-    height: 20px;
-    fill: #AFB1B8;
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}

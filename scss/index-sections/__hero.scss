@@ -1,69 +1,67 @@
-.hero-text {
-    color: $headline-color;
-    text-align: center;
-    font-family: 'Roboto';
-    font-size: 44px;
-    font-weight: 900;
-    line-height: 60px;
-    /* 136.364% */
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    width: 696px;
-    margin-left: auto;
-    margin-right: auto;
-    animation-name: headline-text-animation;
-    animation-duration: 2s;
-    animation-iteration-count: calc(1);
-
-}
-
-// .section-headline {
-//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../images-index/img.png);
-//     background-size: cover;
-//     padding-top: 200px;
-//     padding-bottom: 200px;
-// }
-
-@keyframes headline-text-animation {
-    0% {
-        transform: translate(-1500px, 0);
-        opacity: 0;
-    }
-
-    50% {
-        text-shadow: 3px 2px 1px;
-    }
-
-    100% {
-        transform: translate(0, 0);
-        opacity: 1;
-    }
-
-}
-
 .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../../images-index/img.png);
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
+
+    &__text {
+        color: $headline-color;
+        text-align: center;
+        font-family: 'Roboto';
+        font-size: 44px;
+        font-weight: 900;
+        line-height: 60px;
+        /* 136.364% */
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        width: 696px;
+        margin-left: auto;
+        margin-right: auto;
+        animation-name: headline-text-animation;
+        animation-duration: 2s;
+        animation-iteration-count: calc(1);
+    
+    }
+    
+    @keyframes headline-text-animation {
+        0% {
+            transform: translate(-1500px, 0);
+            opacity: 0;
+        }
+    
+        50% {
+            text-shadow: 3px 2px 1px;
+        }
+    
+        100% {
+            transform: translate(0, 0);
+            opacity: 1;
+        }
+    
+    }
+    
+    
+    &__button {
+        display: block;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.87;
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: white;
+        background: $bg-button-color;
+        border-radius: 4px;
+        height: 50px;
+        width: 216px;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+    
+    }
+
+
 }
 
 
-.hero-button {
-    display: block;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    text-align: center;
-    color: white;
-    background: $bg-button-color;
-    border-radius: 4px;
-    height: 50px;
-    width: 216px;
-    margin-top: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
 
-}
