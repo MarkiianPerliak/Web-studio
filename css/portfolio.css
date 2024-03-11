@@ -285,7 +285,7 @@ summary {
   gap: 50px;
   align-items: center;
 }
-.header__svg__item {
+.header__svg {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -306,13 +306,13 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__svg__item:hover .header__svg__envelope {
+.header__svg:hover .header__svg__envelope {
   fill: #2196F3;
 }
-.header__svg__item:hover .header__contact__link {
+.header__svg:hover .header__contact__link {
   color: #2196F3;
 }
-.header__svg__item:hover .header__svg__smartphone {
+.header__svg:hover .header__svg__smartphone {
   fill: #2196F3;
 }
 .header__contacts {

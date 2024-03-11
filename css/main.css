@@ -285,7 +285,7 @@ summary {
   gap: 50px;
   align-items: center;
 }
-.header__svg__item {
+.header__svg {
   display: flex;
   gap: 10px;
   align-items: center;
@@ -306,13 +306,13 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__svg__item:hover .header__svg__envelope {
+.header__svg:hover .header__svg__envelope {
   fill: #2196F3;
 }
-.header__svg__item:hover .header__contact__link {
+.header__svg:hover .header__contact__link {
   color: #2196F3;
 }
-.header__svg__item:hover .header__svg__smartphone {
+.header__svg:hover .header__svg__smartphone {
   fill: #2196F3;
 }
 .header__contacts {
@@ -655,6 +655,7 @@ summary {
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal__headline {
   color: #212121;
   text-align: center;
@@ -666,6 +667,7 @@ summary {
   letter-spacing: 0.6px;
   margin-bottom: 12px;
 }
+
 .modal__text {
   color: #757575;
   font-family: Roboto;
@@ -675,6 +677,7 @@ summary {
   line-height: normal;
   letter-spacing: 0.12px;
 }
+
 .modal__svg-box {
   fill: #212121;
   width: 18px;
@@ -686,9 +689,11 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal__box {
   position: relative;
 }
+
 .modal__input {
   width: 448px;
   height: 40px;
@@ -699,18 +704,23 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal__box:hover .modal__input {
   border: 1px solid #2196f3;
 }
+
 .modal__box:hover .modal__svg-box {
   fill: #2196F3;
 }
+
 .modal__box:focus .modal__input {
   border: 1px solid #2196f3;
 }
+
 .modal__box:focus .modal__svg-box {
   fill: #2196F3;
 }
+
 .modal__big-input {
   width: 448px;
   height: 120px;
@@ -722,6 +732,7 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal__big-input::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-family: Roboto;
@@ -731,6 +742,7 @@ summary {
   line-height: normal;
   letter-spacing: 0.12px;
 }
+
 .modal__big-input::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-family: Roboto;
@@ -740,17 +752,21 @@ summary {
   line-height: normal;
   letter-spacing: 0.12px;
 }
+
 .modal__big-input:hover {
   border: 1px solid #2196f3;
 }
+
 .modal__big-input:focus {
   border: 1px solid #2196f3;
 }
+
 .modal__list {
   display: flex;
   row-gap: 10px;
   flex-direction: column;
 }
+
 .modal__button {
   display: block;
   border-radius: 4px;
@@ -774,11 +790,13 @@ summary {
   margin-left: auto;
   margin-right: auto;
 }
+
 .modal__text-box {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
+
 .modal__text {
   color: #757575;
   font-family: Roboto;
@@ -791,6 +809,7 @@ summary {
   margin-right: 3px;
   margin-left: 8.4px;
 }
+
 .modal__text-color {
   color: #2196f3;
   font-family: Roboto;
@@ -801,11 +820,13 @@ summary {
   letter-spacing: 0.42px;
   text-decoration-line: underline;
 }
+
 .modal__svg-close-box {
   width: 18px;
   height: 18px;
   fill: #000000;
 }
+
 .modal__close__button {
   width: 30px;
   height: 30px;
@@ -844,7 +865,7 @@ summary {
   gap: 30px;
   margin-top: 50px;
 }
-.customers__svg__box {
+.customers__svg {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   padding-left: 32px;
@@ -863,10 +884,10 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers__svg__box:hover {
+.customers__svg:hover {
   border: 1px solid #2196F3;
 }
-.customers__svg__box:hover .customers__icon {
+.customers__svg:hover .customers__icon {
   fill: #2196F3;
 }
 

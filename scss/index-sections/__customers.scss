@@ -20,7 +20,7 @@
         margin-top: 50px;
     }
     
-    &__svg__box {
+    &__svg {
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         padding-left: 32px;
@@ -41,11 +41,11 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    &__svg__box:hover {
+    &__svg:hover {
         border: 1px solid #2196F3;
     }
     
-    &__svg__box:hover &__icon {
+    &__svg:hover &__icon {
         fill: #2196F3;
     }
 
