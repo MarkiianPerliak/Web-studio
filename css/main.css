@@ -630,7 +630,7 @@ summary {
   pointer-events: none;
 }
 
-.modal__backdrop {
+.backdrop {
   background: rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
@@ -678,7 +678,7 @@ summary {
   letter-spacing: 0.12px;
 }
 
-.modal__svg-box {
+.modal__svg__box {
   fill: #212121;
   width: 18px;
   height: 18px;
@@ -709,7 +709,7 @@ summary {
   border: 1px solid #2196f3;
 }
 
-.modal__box:hover .modal__svg-box {
+.modal__box:hover .modal__svg__box {
   fill: #2196F3;
 }
 
@@ -717,11 +717,11 @@ summary {
   border: 1px solid #2196f3;
 }
 
-.modal__box:focus .modal__svg-box {
+.modal__box:focus .modal__svg__box {
   fill: #2196F3;
 }
 
-.modal__big-input {
+.modal__big__input {
   width: 448px;
   height: 120px;
   border-radius: 4px;
@@ -733,7 +733,7 @@ summary {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal__big-input::-moz-placeholder {
+.modal__big__input::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-family: Roboto;
   font-size: 12px;
@@ -743,7 +743,7 @@ summary {
   letter-spacing: 0.12px;
 }
 
-.modal__big-input::placeholder {
+.modal__big__input::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-family: Roboto;
   font-size: 12px;
@@ -753,11 +753,11 @@ summary {
   letter-spacing: 0.12px;
 }
 
-.modal__big-input:hover {
+.modal__big__input:hover {
   border: 1px solid #2196f3;
 }
 
-.modal__big-input:focus {
+.modal__big__input:focus {
   border: 1px solid #2196f3;
 }
 
@@ -791,7 +791,7 @@ summary {
   margin-right: auto;
 }
 
-.modal__text-box {
+.modal__text__box {
   display: flex;
   justify-content: center;
   padding-top: 20px;
@@ -810,7 +810,7 @@ summary {
   margin-left: 8.4px;
 }
 
-.modal__text-color {
+.modal__text__color {
   color: #2196f3;
   font-family: Roboto;
   font-size: 14px;
@@ -821,7 +821,7 @@ summary {
   text-decoration-line: underline;
 }
 
-.modal__svg-close-box {
+.modal__svg__close-box {
   width: 18px;
   height: 18px;
   fill: #000000;
