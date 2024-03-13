@@ -1,7 +1,7 @@
 .services {
     padding-top: 94px;
 
-    &__some::before {
+    &__img::before {
         display: block;
         background: #F5F4FA;
         content: "";
@@ -15,17 +15,17 @@
     
     }
     
-    &__some:nth-child(2)::before {
+    &__img:nth-child(2)::before {
         background-image: url(../images-index/clock.png);
     
     }
     
-    &__some:nth-child(3)::before {
+    &__img:nth-child(3)::before {
         background-image: url(../images-index/diagram.png);
     
     }
     
-    &__some:nth-child(4)::before {
+    &__img:nth-child(4)::before {
         background-image: url(../images-index/astronaut.png);
     
     }

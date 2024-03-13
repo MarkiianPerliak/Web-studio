@@ -51,7 +51,7 @@
         box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
     }
     
-    &__list2 {
+    &__big-list {
         display: flex;
         flex-wrap: wrap;
         row-gap: 30px;
@@ -94,7 +94,7 @@
         margin-bottom: 34px;
     }
     
-    &__hover__box {
+    &__hover-box {
         background-color: rgba(33, 150, 243, 0.90);
         opacity: 0;
         position: absolute;
@@ -104,11 +104,11 @@
         transition: opacity 250sm cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    &__article:hover &__hover__box {
+    &__article:hover &__hover-box {
         opacity: 1;
     }
     
-    &__hover__text {
+    &__hover-text {
         color: $headline-color;
         font-family: Roboto;
         font-size: 18px;
