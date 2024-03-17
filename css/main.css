@@ -275,7 +275,7 @@ summary {
   display: flex;
   justify-content: space-between;
 }
-.header__logo__link {
+.header__logo-link {
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -896,15 +896,15 @@ summary {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer__big__box {
+.footer__big-box {
   display: flex;
   gap: 70px;
 }
-.footer__logo__link {
+.footer__logo-link {
   display: block;
   margin-bottom: 20px;
 }
-.footer__logo__color {
+.footer__logo-color {
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
