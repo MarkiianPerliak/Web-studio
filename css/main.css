@@ -265,6 +265,15 @@ summary {
   display: list-item;
 }
 
+.services__info {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #757575;
+}
+
 .header {
   border-bottom: solid #D4DBDA 1px;
 }
@@ -612,15 +621,6 @@ summary {
   color: #212121;
   margin-bottom: 10px;
 }
-.services__info {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #757575;
-}
-
 .is-hidden .modal {
   transform: scale(0);
 }
