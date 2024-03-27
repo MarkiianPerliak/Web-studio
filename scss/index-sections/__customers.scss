@@ -28,8 +28,7 @@
         padding-top: 16px;
         padding-bottom: 16px;
         transition-property: border;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        @extend animations;
     }
     
     &__icon {
@@ -37,8 +36,7 @@
         height: 60px;
         fill: #afb1b8;
         transition-property: fill;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        @extend animations;
     }
     
     &__svg:hover {

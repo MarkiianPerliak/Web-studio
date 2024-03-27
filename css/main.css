@@ -274,6 +274,12 @@ summary {
   color: #757575;
 }
 
+.hero__button {
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+}
+
 .header {
   border-bottom: solid #D4DBDA 1px;
 }
@@ -454,10 +460,6 @@ summary {
   border-radius: 4px;
   height: 50px;
   width: 216px;
-  margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
 }
 
 .team {
