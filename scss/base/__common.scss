@@ -8,4 +8,16 @@ body {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (max-width: 910px;) {
+        width: 450px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    @media screen and (max-width: 1300px;) {
+        width: 738px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

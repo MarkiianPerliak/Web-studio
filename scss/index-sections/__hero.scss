@@ -20,6 +20,29 @@
         animation-name: headline-text-animation;
         animation-duration: 2s;
         animation-iteration-count: calc(1);
+
+        @media screen and (min-width: 910;) {
+            font-size: 26px;
+            line-height: 162%;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        
+
+        
+    
+        @media screen and (min-width: 1300px;) {
+            font-size: 26px;
+            line-height: 162%;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+
+
     
     }
     
@@ -54,6 +77,18 @@
         height: 50px;
         width: 216px;
         @extend %button;
+
+        @media screen and (min-width: 910px;) {
+            width: 200px;
+            height: 50px;
+        }
+    
+        @media screen and (min-width: 1300px;) {
+            width: 200px;
+            height: 50px;
+        }
+
+
 
     
     }
