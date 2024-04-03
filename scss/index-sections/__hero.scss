@@ -1,49 +1,50 @@
 .hero {
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../../images-index/img.png);
     background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+
+
+    @media screen and (min-width: 910px;) {
+        padding-top: 118px;
+        padding-bottom: 118px;
+
+    }
+
+    @media screen and (min-width: 1300px;) {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
 
     &__text {
         color: $headline-color;
         text-align: center;
         font-family: 'Roboto';
-        font-size: 44px;
         font-weight: 900;
-        line-height: 60px;
-        /* 136.364% */
+        font-size: 44px;
+        line-height: 162%;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         width: 696px;
+        margin-bottom: 30px;
         margin-left: auto;
         margin-right: auto;
         animation-name: headline-text-animation;
         animation-duration: 2s;
         animation-iteration-count: calc(1);
 
-        @media screen and (min-width: 910;) {
-            font-size: 26px;
+        @media screen and (min-width: 910px;) {
+            font-size: 44px;
             line-height: 162%;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            text-align: center;
+            margin-bottom: 30px;
+    
         }
-
-        
-
-        
     
         @media screen and (min-width: 1300px;) {
-            font-size: 26px;
-            line-height: 162%;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            text-align: center;
-        }
-
-
-
-    
+            font-size: 44px;
+            line-height: 136%;
+            margin-bottom: 30px;
+        }   
     }
     
     @keyframes headline-text-animation {
@@ -74,19 +75,23 @@
         color: white;
         background: $bg-button-color;
         border-radius: 4px;
+        width: 200px;
         height: 50px;
-        width: 216px;
         @extend %button;
+
+
 
         @media screen and (min-width: 910px;) {
             width: 200px;
             height: 50px;
+    
         }
     
         @media screen and (min-width: 1300px;) {
-            width: 200px;
+            width: 216px;
             height: 50px;
-        }
+        }   
+
 
 
 
@@ -95,6 +100,4 @@
 
 
 }
-
-
 
