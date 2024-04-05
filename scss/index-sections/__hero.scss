@@ -4,14 +4,20 @@
     padding-top: 118px;
     padding-bottom: 118px;
 
-
-    @media screen and (min-width: 910px;) {
+    @media screen and (min-width: 480px) {
         padding-top: 118px;
         padding-bottom: 118px;
 
     }
 
-    @media screen and (min-width: 1300px;) {
+
+    @media screen and (min-width: 768px) {
+        padding-top: 118px;
+        padding-bottom: 118px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
         padding-top: 200px;
         padding-bottom: 200px;
     }
@@ -21,11 +27,11 @@
         text-align: center;
         font-family: 'Roboto';
         font-weight: 900;
-        font-size: 44px;
+        font-size: 26px;
         line-height: 162%;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        width: 696px;
+        width: 360px;
         margin-bottom: 30px;
         margin-left: auto;
         margin-right: auto;
@@ -33,17 +39,28 @@
         animation-duration: 2s;
         animation-iteration-count: calc(1);
 
-        @media screen and (min-width: 910px;) {
-            font-size: 44px;
+        @media screen and (min-width: 480px) {
+            font-size: 26px;
             line-height: 162%;
             margin-bottom: 30px;
+            width: 360px;
+    
+        }
+        
+
+        @media screen and (min-width: 768px) {
+            font-size: 26px;
+            line-height: 162%;
+            margin-bottom: 30px;
+            width: 360px;
     
         }
     
-        @media screen and (min-width: 1300px;) {
+        @media screen and (min-width: 1200px) {
             font-size: 44px;
             line-height: 136%;
             margin-bottom: 30px;
+            width: 696px;
         }   
     }
     
@@ -81,13 +98,20 @@
 
 
 
-        @media screen and (min-width: 910px;) {
+        @media screen and (min-width: 480px) {
             width: 200px;
             height: 50px;
     
         }
+
+        @media screen and (min-width: 768px) {
+            width: 200px;
+            height: 50px;
     
-        @media screen and (min-width: 1300px;) {
+        }
+
+    
+        @media screen and (min-width: 1300px) {
             width: 216px;
             height: 50px;
         }   

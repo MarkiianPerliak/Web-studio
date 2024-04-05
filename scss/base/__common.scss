@@ -3,20 +3,28 @@ body {
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    outline: red solid;
 
-    @media screen and (max-width: 910px;) {
-        width: 450px;
+    @media screen and (min-width: 480px) {
+        width: 480px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }    
+
+    @media screen and (min-width: 768px) {
+        width: 768px;
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    @media screen and (max-width: 1300px;) {
-        width: 738px;
+    @media screen and (min-width: 1200px) {
+
+        width: 1200px;
         padding-left: 15px;
         padding-right: 15px;
     }

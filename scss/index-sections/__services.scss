@@ -9,9 +9,27 @@
         padding-top: 25px;
         margin-bottom: 30px;
         height: 120px;
+        width: 450px;
         background-image: url(../images-index/antenna.png);
         background-repeat: no-repeat;
         background-position: center;
+
+        @media screen and (min-width: 480px) {
+            height: 120px;
+            width: 450px;
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            height: 120px;
+            width: 354px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            height: 120px;
+        }
     
     }
     
@@ -33,10 +51,28 @@
     
     
     &__list {
-        display: flex;
+        display: block;
         
-        justify-content: center;
-        gap: 30px;
+
+
+        @media screen and (min-width: 480px) {
+            display: block;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            row-gap: 30px;
+            flex-wrap: wrap;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
     }
     
     &__img {
@@ -53,13 +89,45 @@
         font-weight: 700;
         line-height: 1.14;
         letter-spacing: 0.03em;
-        text-align: left;
+        text-align: center;
         color: $title-color;
         margin-bottom: 10px;
+
+        @media screen and (min-width: 480px) {
+            text-align: center;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            text-align: left;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            height: 120px;
+            text-align: left;
+        }
     }
     
     &__info {
        @extend %text;
+       text-align: left;
+       width: 450px;
+
+
+       @media screen and (min-width: 480px) {
+        text-align: left;
+        width: 450px;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        width: 354px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        width: 270px;
+        text-align: left;
+    }
     }
 
 

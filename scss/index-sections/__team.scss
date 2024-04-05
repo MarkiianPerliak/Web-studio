@@ -1,36 +1,131 @@
 .team {
-    padding-top: 94px;
+    padding-bottom: 60px;
+    padding-top: 60px;
     background: #F5F4FA;
-    padding-bottom: 94px;
+
+
+    @media screen and (min-width: 480px) {
+        padding-bottom: 60px;
+        padding-top: 60px;
+
+    }
+
+
+    @media screen and (min-width: 768px) {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
 
     &__list {
-        display: flex;
+        display: block;
+
+
+
+        @media screen and (min-width: 480px) {
+            display: block;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
         justify-content: space-around;
+        gap: 30px;
+        row-gap: 30px;
+        flex-wrap: wrap
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+        justify-content: space-around;
+        }
     }
     
     &__article {
         border-radius: 0px 0px 4px 4px;
         background: #FFF;
-        padding-bottom: 42px;
+        padding-bottom: 36px;
     
         /* material shadow v1 */
         box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+
+
+        @media screen and (min-width: 480px) {
+            padding-bottom: 36px;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            padding-bottom: 36px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            padding-bottom: 42px;
+        }
     }
     
     &__img {
-        width: 270px;
+        width: 450px;
+        height: 460px;
+
+
+
+        @media screen and (min-width: 480px) {
+            width: 450px;
+            height: 460px;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            width: 354px;
+            height: 374px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 270px;
         height: 260px;
+        }
     }
     
     &__headline {
     
-        font-size: 36px;
+
+        font-size: 28px;
         font-weight: 700;
         line-height: 1.16;
         letter-spacing: 0.03em;
         text-align: center;
         color: $title-color;
         margin-bottom: 50px;
+
+
+        @media screen and (min-width: 480px) {
+            font-size: 28px;
+            font-weight: 700;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            font-size: 28px;
+            font-weight: 700;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 36px;
+            font-weight: 700;
+        }
     }
     
     &__name {
@@ -43,6 +138,26 @@
         color: $title-color;
         margin-top: 30px;
         margin-bottom: 10px;
+
+
+
+        @media screen and (min-width: 480px) {
+            font-size: 16px;
+            font-weight: 500;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            font-weight: 500;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 16px;
+            font-weight: 500;
+        }
     
     }
     
@@ -55,13 +170,48 @@
         text-align: center;
         color: $text-color;
         padding-bottom: 30px;
+
+
+        @media screen and (min-width: 480px) {
+            font-size: 16px;
+            font-weight: 400;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            font-size: 16px;
+            font-weight: 400;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 16px;
+            font-weight: 400;
+        }
     
     }
     
     &__svg-list {
         display: flex;
-        gap: 10px;
+        gap: 34px;
         justify-content: center;
+
+
+        @media screen and (min-width: 480px) {
+            gap: 34px;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            gap: 34px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            gap: 34px;
+        }
     }
     
     &__circle {
@@ -73,7 +223,27 @@
         justify-content: center;
         align-items: center;
         transition-property: background-color;
-        @extend animations;
+        @extend %animations;
+
+
+
+        @media screen and (min-width: 480px) {
+            width: 44px;
+            height: 44px;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            width: 44px;
+        height: 44px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 44px;
+        height: 44px;
+        }
     }
     
     &__circle:hover {
@@ -89,7 +259,27 @@
         height: 20px;
         fill: #AFB1B8;
         transition-property: fill;
-        @extend animations;
+        @extend %animations;
+
+
+
+        @media screen and (min-width: 480px) {
+            width: 20px;
+            height: 20px;
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            width: 20px;
+        height: 20px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 20px;
+        height: 20px;
+        }
     }
 
 

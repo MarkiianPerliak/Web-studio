@@ -68,7 +68,7 @@
     left: 12px;
     top: 11px;
     transition-property: fill;
-    @extend animations;
+    @extend %animations;
 }
 
 .modal__box {
@@ -82,7 +82,7 @@
     border: 1px solid rgba(33, 33, 33, 0.20);
     padding-left: 30px;
     transition-property: border;
-    @extend animations;
+    @extend %animations;
 }
 
 .modal__box:hover .modal__input {
@@ -109,7 +109,7 @@
     padding-bottom: 87px;
     padding-left: 16px;
     transition-property: border;
-    @extend animations;
+    @extend %animations;
 }
 
 .modal__big__input::placeholder {
