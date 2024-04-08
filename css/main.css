@@ -572,11 +572,15 @@ summary {
   }
 }
 .team__list {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
 }
 @media screen and (min-width: 480px) {
   .team__list {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -801,16 +805,16 @@ summary {
 }
 
 .product {
-  visibility: hidden;
+  display: none;
 }
 @media screen and (min-width: 480px) {
   .product {
-    visibility: hidden;
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
   .product {
-    visibility: hidden;
+    display: none;
   }
 }
 @media screen and (min-width: 1200px) {

@@ -22,13 +22,15 @@
     }
 
     &__list {
-        display: block;
-
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
 
 
         @media screen and (min-width: 480px) {
-            display: block;
-
+            display: flex;
+            flex-direction: column;
+            row-gap: 30px;
         }
     
     
