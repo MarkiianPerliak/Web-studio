@@ -531,9 +531,43 @@ summary {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 480px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .footer__big-box {
-  display: flex;
-  gap: 70px;
+  display: block;
+}
+@media screen and (min-width: 480px) {
+  .footer__big-box {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__big-box {
+    display: flex;
+    gap: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__big-box {
+    display: flex;
+    gap: 70px;
+  }
 }
 .footer__logo-link {
   display: block;

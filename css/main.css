@@ -591,6 +591,7 @@ summary {
 @media screen and (min-width: 1200px) {
   .team__list {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
   }
 }
@@ -634,7 +635,7 @@ summary {
 }
 @media screen and (min-width: 1200px) {
   .team__img {
-    width: 270px;
+    width: 278px;
     height: 260px;
   }
 }
@@ -870,6 +871,7 @@ summary {
 @media screen and (min-width: 1200px) {
   .services__img::before {
     height: 120px;
+    width: 270px;
   }
 }
 .services__img:nth-child(2)::before {
@@ -902,7 +904,8 @@ summary {
   .services__list {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
   }
 }
 .services__img {
@@ -920,6 +923,7 @@ summary {
 @media screen and (min-width: 480px) {
   .services__headline {
     text-align: center;
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1249,7 +1253,7 @@ summary {
 }
 @media screen and (min-width: 1200px) {
   .customers__list {
-    gap: 30px;
+    gap: 27px;
     margin-top: 50px;
   }
 }
@@ -1266,18 +1270,24 @@ summary {
   .customers__svg {
     padding-left: 42px;
     padding-right: 42px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 @media screen and (min-width: 768px) {
   .customers__svg {
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 @media screen and (min-width: 1200px) {
   .customers__svg {
     padding-left: 32px;
     padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 }
 .customers__icon {
@@ -1316,9 +1326,43 @@ summary {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 480px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 .footer__big-box {
-  display: flex;
-  gap: 70px;
+  display: block;
+}
+@media screen and (min-width: 480px) {
+  .footer__big-box {
+    display: block;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer__big-box {
+    display: flex;
+    gap: 165px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__big-box {
+    display: flex;
+    gap: 70px;
+  }
 }
 .footer__logo-link {
   display: block;

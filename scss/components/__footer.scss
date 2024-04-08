@@ -3,10 +3,42 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
+    @media screen and (min-width: 480px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+
+
 
     &__big-box {
-        display: flex;
+        display: block;
+
+        @media screen and (min-width: 480px) {
+            display: block;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
+        gap: 165px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
         gap: 70px;
+        }
     }
     
     &__logo-link {
@@ -22,6 +54,19 @@
         letter-spacing: 0.03em;
         text-align: left;
         color: $hover-headline-color;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     
     }
     
@@ -33,6 +78,19 @@
         letter-spacing: 0.03em;
         text-align: left;
         color: $headline-color;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__address {
@@ -44,6 +102,19 @@
         text-align: left;
         color: $headline-color;
         font-style: normal;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__mail {
@@ -55,6 +126,19 @@
         text-align: left;
         color: #FFFFFF99;
         margin-top: 9px;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__tel {
@@ -66,6 +150,19 @@
         text-align: left;
         color: #FFFFFF99;
         margin-top: 9px;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__box-r-headline {
@@ -77,18 +174,57 @@
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__box-r-svg-list {
         display: flex;
         gap: 10px;
         margin-top: 20px;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__box-r-svg {
         width: 20px;
         height: 20px;
         fill: #FFFFFF;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__box-r-svg-circle {
@@ -102,8 +238,22 @@
         transition-property: background-color;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    }
+
+        @media screen and (min-width: 480px) {
+
+        }
     
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
+        
+    }
+
     &__box-r-svg-circle:hover {
         background-color: #2196F3;
     }
@@ -113,6 +263,20 @@
         height: 24px;
         fill: #FFF;
         margin-left: 10px;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     
@@ -120,6 +284,20 @@
         display: flex;
         margin-top: 20px;
         gap: 12px;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__super-right-headline {
@@ -131,6 +309,20 @@
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__super-right-input {
@@ -145,6 +337,20 @@
         flex-direction: column;
         justify-content: center;
         padding-left: 16px;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__super-right-input::placeholder {
@@ -156,6 +362,20 @@
         line-height: 20px;
         /* 125% */
         letter-spacing: 0.48px;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     }
     
     &__super-right-button {
@@ -177,6 +397,20 @@
         letter-spacing: 0.96px;
         align-items: center;
         padding-left: 28px;
+
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+    
+        }
     
     }
 
