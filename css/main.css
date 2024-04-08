@@ -801,8 +801,24 @@ summary {
 }
 
 .product {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  visibility: hidden;
+}
+@media screen and (min-width: 480px) {
+  .product {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 768px) {
+  .product {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .product {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    visibility: visible;
+  }
 }
 .product__list {
   display: flex;

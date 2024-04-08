@@ -1,6 +1,24 @@
 .product {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    visibility: hidden;
+
+    @media screen and (min-width: 480px) {
+        visibility: hidden;
+        
+
+    }
+
+
+    @media screen and (min-width: 768px) {
+        visibility: hidden;
+        
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        visibility: visible;
+    }
 
 
 
