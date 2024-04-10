@@ -289,6 +289,25 @@ summary {
 
 .header {
   border-bottom: solid #D4DBDA 1px;
+  display: none;
+}
+@media screen and (min-width: 480px) {
+  .header {
+    border-bottom: solid #D4DBDA 1px;
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    border-bottom: solid #D4DBDA 1px;
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    border-bottom: solid #D4DBDA 1px;
+    display: block;
+  }
 }
 .header__item {
   position: relative;

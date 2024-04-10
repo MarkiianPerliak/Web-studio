@@ -9,7 +9,7 @@
         padding-top: 25px;
         margin-bottom: 30px;
         height: 120px;
-        width: 450px;
+        width: 310px;
         background-image: url(../images-index/antenna.png);
         background-repeat: no-repeat;
         background-position: center;
@@ -52,28 +52,28 @@
     
     
     &__list {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         
 
 
         @media screen and (min-width: 480px) {
-            display: block;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
     
     
         @media screen and (min-width: 768px) {
-            display: flex;
-            justify-content: center;
+            flex-direction: row;
             gap: 30px;
             row-gap: 30px;
             flex-wrap: wrap;
         }
     
         @media screen and (min-width: 1200px) {
-            display: flex;
-            justify-content: center;
-            justify-content: space-around;
-            flex-wrap: nowrap;
+
         }
     }
     
@@ -114,7 +114,7 @@
     &__info {
        @extend %text;
        text-align: left;
-       width: 450px;
+       width: 310px;
 
 
        @media screen and (min-width: 480px) {

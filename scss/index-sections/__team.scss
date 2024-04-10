@@ -36,17 +36,19 @@
     
         @media screen and (min-width: 768px) {
             display: flex;
-        justify-content: space-around;
+            justify-content: center;
         gap: 30px;
         row-gap: 30px;
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        flex-direction: row;
     
         }
     
         @media screen and (min-width: 1200px) {
             display: flex;
             flex-wrap: nowrap;
-        justify-content: space-around;
+        justify-content: center;
+        flex-direction: row;
         }
     }
     
@@ -76,7 +78,7 @@
     }
     
     &__img {
-        width: 450px;
+        width: 290px;
         height: 460px;
 
 
@@ -197,23 +199,23 @@
     
     &__svg-list {
         display: flex;
-        gap: 34px;
+        gap: 14px;
         justify-content: center;
 
 
         @media screen and (min-width: 480px) {
-            gap: 34px;
+            gap: 14px;
 
         }
     
     
         @media screen and (min-width: 768px) {
-            gap: 34px;
+            gap: 14px;
     
         }
     
         @media screen and (min-width: 1200px) {
-            gap: 34px;
+            gap: 14px;
         }
     }
     

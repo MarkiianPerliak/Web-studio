@@ -1,5 +1,23 @@
 .header {
     border-bottom: solid #D4DBDA 1px;
+    display: none;
+
+    @media screen and (min-width: 480px) {
+        border-bottom: solid #D4DBDA 1px;
+        display: none;
+    }
+
+
+    @media screen and (min-width: 768px) {
+        border-bottom: solid #D4DBDA 1px;
+        display: none;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        border-bottom: solid #D4DBDA 1px;
+        display: block;
+    }
 
     &__item {
         position: relative;

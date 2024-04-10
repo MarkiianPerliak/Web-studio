@@ -308,6 +308,25 @@ summary {
 
 .header {
   border-bottom: solid #D4DBDA 1px;
+  display: none;
+}
+@media screen and (min-width: 480px) {
+  .header {
+    border-bottom: solid #D4DBDA 1px;
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header {
+    border-bottom: solid #D4DBDA 1px;
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    border-bottom: solid #D4DBDA 1px;
+    display: block;
+  }
 }
 .header__item {
   position: relative;
@@ -471,7 +490,7 @@ summary {
   line-height: 162%;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  width: 360px;
+  width: 300px;
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -586,17 +605,19 @@ summary {
 @media screen and (min-width: 768px) {
   .team__list {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 30px;
     row-gap: 30px;
     flex-wrap: wrap;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 1200px) {
   .team__list {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: row;
   }
 }
 .team__article {
@@ -622,7 +643,7 @@ summary {
   }
 }
 .team__img {
-  width: 450px;
+  width: 290px;
   height: 460px;
 }
 @media screen and (min-width: 480px) {
@@ -727,22 +748,22 @@ summary {
 }
 .team__svg-list {
   display: flex;
-  gap: 34px;
+  gap: 14px;
   justify-content: center;
 }
 @media screen and (min-width: 480px) {
   .team__svg-list {
-    gap: 34px;
+    gap: 14px;
   }
 }
 @media screen and (min-width: 768px) {
   .team__svg-list {
-    gap: 34px;
+    gap: 14px;
   }
 }
 @media screen and (min-width: 1200px) {
   .team__svg-list {
-    gap: 34px;
+    gap: 14px;
   }
 }
 .team__circle {
@@ -821,7 +842,7 @@ summary {
   .product {
     padding-top: 94px;
     padding-bottom: 94px;
-    visibility: visible;
+    display: block;
   }
 }
 .product__list {
@@ -871,7 +892,7 @@ summary {
   padding-top: 25px;
   margin-bottom: 30px;
   height: 120px;
-  width: 450px;
+  width: 310px;
   background-image: url(../images-index/antenna.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -904,28 +925,23 @@ summary {
   background-image: url(../images-index/astronaut.png);
 }
 .services__list {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media screen and (min-width: 480px) {
   .services__list {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 768px) {
   .services__list {
-    display: flex;
-    justify-content: center;
+    flex-direction: row;
     gap: 30px;
     row-gap: 30px;
     flex-wrap: wrap;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .services__list {
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    flex-wrap: nowrap;
   }
 }
 .services__img {
@@ -959,7 +975,7 @@ summary {
 }
 .services__info {
   text-align: left;
-  width: 450px;
+  width: 310px;
 }
 @media screen and (min-width: 480px) {
   .services__info {
