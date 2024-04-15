@@ -1,22 +1,18 @@
 .header {
     border-bottom: solid #D4DBDA 1px;
-    display: none;
 
     @media screen and (min-width: 480px) {
         border-bottom: solid #D4DBDA 1px;
-        display: none;
     }
 
 
     @media screen and (min-width: 768px) {
         border-bottom: solid #D4DBDA 1px;
-        display: none;
 
     }
 
     @media screen and (min-width: 1200px) {
         border-bottom: solid #D4DBDA 1px;
-        display: block;
     }
 
     &__item {
@@ -33,6 +29,32 @@
         padding-bottom: 25px;
 
         
+    }
+
+    &__svg-menu {
+        fill: #000000;
+        width: 40px;
+        height: 40px;
+        display: block;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            
+        }
+    }
+
+
+    &__menu-button {
+        background-color: transparent;
+        border: none;
     }
     
     &__list {

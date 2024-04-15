@@ -289,24 +289,20 @@ summary {
 
 .header {
   border-bottom: solid #D4DBDA 1px;
-  display: none;
 }
 @media screen and (min-width: 480px) {
   .header {
     border-bottom: solid #D4DBDA 1px;
-    display: none;
   }
 }
 @media screen and (min-width: 768px) {
   .header {
     border-bottom: solid #D4DBDA 1px;
-    display: none;
   }
 }
 @media screen and (min-width: 1200px) {
   .header {
     border-bottom: solid #D4DBDA 1px;
-    display: block;
   }
 }
 .header__item {
@@ -319,6 +315,21 @@ summary {
 .header__logo-link {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.header__svg-menu {
+  fill: #000000;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .header__svg-menu {
+    display: none;
+  }
+}
+.header__menu-button {
+  background-color: transparent;
+  border: none;
 }
 .header__list {
   display: flex;
