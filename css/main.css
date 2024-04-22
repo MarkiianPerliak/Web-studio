@@ -1276,6 +1276,10 @@ summary {
   width: 40px;
   height: 40px;
   flex-shrink: 0;
+  fill: #212121;
+}
+.menu__close-button:hover .menu__close-svg {
+  fill: #2196F3;
 }
 .menu__close-button {
   border: none;
