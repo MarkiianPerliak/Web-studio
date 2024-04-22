@@ -25,13 +25,16 @@
 
     <header class="header">
         <div class="container">
-            <a class="header__logo-link" href="./index.html"><span class="header__logo-color">Web</span><span
-                class="header__logo">Studio</span></a>
-                <button class="header__menu-button .js-open-menu">
-                    <svg class="header__svg-menu">
-                        <use href="./icons/icon.svg#icon-menu"></use>
-                    </svg>
-                </button>
+            <div class="header__menu-box">
+                <a class="header__logo-link" href="./index.html"><span class="header__logo-color">Web</span><span
+                    class="header__logo">Studio</span></a>
+                    <button type="button"  class="menu-toggle js-open-menu header__menu-button ">
+                        <svg class="header__svg-menu">
+                            <use href="./icons/icon.svg#icon-menu"></use>
+                        </svg>
+                    </button>
+            </div>
+
             <nav class="header__nav">
 
                 <ul class="header__list">
@@ -505,16 +508,29 @@
     </div>
     </div>
 
-    <div class=".js-menu-container">
-        <button class="menu__close-button">
+
+<div  class="is-open js-menu-container" id="mobile-menu">
+    <div class="menu">
+        <button type="button" class="menu-toggle js-close-menu menu__close-button">
             <svg class="menu__close-svg">
                 <use href="./icons/icon.svg#icon-close"></use>
             </svg>
         </button>
 
+        <ul class="menu-list">
+            <li class="menu__item"><a class="menu__link" href="./index.html">Студія</a></li>
+            <li class="menu__item"><a class="menu__link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="menu__item"><a class="menu__link" href="#">Контакти</a></li>
+        </ul>
+
+
+
 
     </div>
+</div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

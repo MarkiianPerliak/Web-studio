@@ -1,0 +1,72 @@
+.is-open {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
+.js-menu-container {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu {
+
+    padding-left: 40px;
+
+
+
+
+    &__close-svg {
+        width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    }
+
+
+    &__close-button {
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: row;
+        row-gap: 32px;
+    }
+
+
+        &__link {
+            color: #212121;
+            font-family: Roboto;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.8px;
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        
+        }
+
+        &__link:hover {
+            color: $hover-headline-color;
+        }
+
+}
+
+

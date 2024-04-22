@@ -3,6 +3,7 @@
 
     @media screen and (min-width: 480px) {
         border-bottom: solid #D4DBDA 1px;
+        
     }
 
 
@@ -20,8 +21,22 @@
     }
     
     &__nav {
-        display: flex;
-        justify-content: space-between;
+        display: none;
+
+        @media screen and (min-width: 480px) {
+display: none;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            justify-content: space-between;
+        }
     }
     
     &__logo-link {
@@ -30,6 +45,20 @@
 
         
     }
+
+    &__menu-box {
+        display: flex;
+    }
+
+
+    &__menu-button {
+        margin-left: 120px ;
+
+        @media screen and (min-width: 480px) {
+            margin-left: 260px;
+        }
+
+}
 
     &__svg-menu {
         fill: #000000;

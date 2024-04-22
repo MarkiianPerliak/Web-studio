@@ -309,12 +309,39 @@ summary {
   position: relative;
 }
 .header__nav {
-  display: flex;
-  justify-content: space-between;
+  display: none;
+}
+@media screen and (min-width: 480px) {
+  .header__nav {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 .header__logo-link {
   padding-top: 24px;
   padding-bottom: 25px;
+}
+.header__menu-box {
+  display: flex;
+}
+.header__menu-button {
+  margin-left: 120px;
+}
+@media screen and (min-width: 480px) {
+  .header__menu-button {
+    margin-left: 260px;
+  }
 }
 .header__svg-menu {
   fill: #000000;
