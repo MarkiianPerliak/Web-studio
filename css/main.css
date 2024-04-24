@@ -1288,7 +1288,7 @@ summary {
 }
 .menu__list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   row-gap: 35.7px;
   margin-bottom: 302px;
 }
@@ -1308,9 +1308,25 @@ summary {
   color: #2196f3;
 }
 .menu__contacts {
-  display: block;
+  display: flex;
   margin-left: auto;
-  gap: 50px;
+  flex-direction: column;
+  row-gap: 32px;
+}
+.menu__link-contact-big {
+  font-size: 34px;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu__link-contact-big:hover {
+  color: #2196F3;
 }
 .menu__link-contact {
   color: #757575;
@@ -1323,9 +1339,6 @@ summary {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.menu__link-contact {
-  font-size: 24px;
 }
 .menu__link-contact:hover {
   color: #2196F3;
