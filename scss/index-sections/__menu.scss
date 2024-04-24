@@ -13,8 +13,6 @@
     right: 0;
     bottom: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -50,14 +48,16 @@
     &__list {
         display: flex;
         flex-direction: row;
-        row-gap: 32px;
+        row-gap: 35.7px;
+        margin-bottom: 302px;
+
     }
 
 
         &__link {
             color: #212121;
             font-family: Roboto;
-            font-size: 40px;
+            font-size: 40px; 
             font-style: normal;
             font-weight: 500;
             line-height: normal;
@@ -72,6 +72,40 @@
             color: $hover-headline-color;
         }
 
+
+        &__contacts {
+            display: block;
+            margin-left: auto;
+            gap: 50px;
+
+
+        }
+
+        &__link-contact {
+    
+            color: #757575;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.48px;
+            transition-property: color;
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        &__link-contact {
+            font-size: 24px;
+        }
+
+        &__link-contact:hover {   
+            color: #2196F3;
+        }
+
+        &__current {
+            color: $hover-headline-color;
+        }
 }
 
 

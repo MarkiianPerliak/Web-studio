@@ -448,9 +448,9 @@
     <!-- modal -->
 
 
-    <div data-modal class="backdrop is-hidden" >
+    <div data-modal class="backdrop is-hidden">
         <div class="modal">
-            <form action="">
+            <form action="modal">
                 <div class="position__button">
                     <button data-modal-close class="modal__close__button">
                         <svg class="modal__svg__close__box">
@@ -496,7 +496,7 @@
             </li>
         </ul>
         <div class="modal__text__box">
-            <input type="checkbox" name="" id="modal__checkbox">
+            <input type="checkbox" id="modal__checkbox">
             <label class="modal__label__for__checkbox" for="modal__checkbox"> <span class="modal__text">Погоджуюся з розсилкою та приймаю</span><a  class="modal__text__color" href="#">Умови договору</a> </label>
 
             <!-- <span class="modal-text">Погоджуюся з розсилкою та приймаю </span><a
@@ -509,7 +509,7 @@
     </div>
 
 
-<div  class="is-open js-menu-container" id="mobile-menu">
+<div  class="is-open js-menu-container">
     <div class="menu">
         <button type="button" class="menu-toggle js-close-menu menu__close-button">
             <svg class="menu__close-svg">
@@ -518,12 +518,23 @@
         </button>
 
         <ul class="menu-list">
-            <li class="menu__item"><a class="menu__link" href="./index.html">Студія</a></li>
+            <li class="menu__item"><a class="menu__link menu-current" href="./index.html">Студія</a></li>
             <li class="menu__item"><a class="menu__link" href="./portfolio.html">Портфоліо</a></li>
             <li class="menu__item"><a class="menu__link" href="#">Контакти</a></li>
         </ul>
 
+        <ul class="menu__contacts">
 
+            <li class="menu__contact"> 
+                <a class="menu__link-contact" href="tel:+380961111111">+38 096 111 1111</a>
+
+
+        </li>
+            <li class="menu__contact"> 
+                     <a class="menu__link-contact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+
+        </ul>
 
 
     </div>
