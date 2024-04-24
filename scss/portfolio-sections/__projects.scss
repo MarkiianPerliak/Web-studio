@@ -51,14 +51,16 @@
     
     &__list {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 8px;
+        row-gap: 15px;
         justify-content: center;
         margin-bottom: 50px;
+        
 
 
         @media screen and (min-width: 480px) {
-flex-direction: column;
+
             display: flex;
         gap: 8px;
         justify-content: center;
@@ -68,10 +70,11 @@ flex-direction: column;
     
         @media screen and (min-width: 768px) {
             display: flex;
-            flex-direction: row;
+flex-wrap: nowrap;
             gap: 8px;
             justify-content: center;
             margin-bottom: 50px;
+            
     
         }
     
