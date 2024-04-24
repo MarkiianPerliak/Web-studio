@@ -1,5 +1,11 @@
+
+.display {
+    display: flex;
+}
+
 .header {
     border-bottom: solid #D4DBDA 1px;
+
 
     @media screen and (min-width: 480px) {
         border-bottom: solid #D4DBDA 1px;
@@ -9,11 +15,21 @@
 
     @media screen and (min-width: 768px) {
         border-bottom: solid #D4DBDA 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
 
     }
 
     @media screen and (min-width: 1200px) {
         border-bottom: solid #D4DBDA 1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     &__item {
@@ -30,24 +46,24 @@ display: none;
     
         @media screen and (min-width: 768px) {
             display: flex;
-            justify-content: space-between;
+            align-items: center;
+            justify-content: center;
+            gap: 50px
         }
     
         @media screen and (min-width: 1200px) {
-            display: flex;
-            justify-content: space-between;
+              gap: 280px;
         }
     }
-    
-    &__logo-link {
-        padding-top: 24px;
-        padding-bottom: 25px;
 
-        
-    }
 
     &__menu-box {
         display: flex;
+
+        @media screen and (min-width: 768px) {
+            display: block;
+        }
+                
     }
 
 
@@ -56,7 +72,16 @@ display: none;
 
         @media screen and (min-width: 480px) {
             margin-left: 260px;
+
         }
+
+        @media screen and (min-width: 768px) {
+            display: none;
+
+        }
+
+
+
 
 }
 
@@ -88,9 +113,27 @@ display: none;
     
     &__list {
         display: flex;
-        margin-left: 93px;
-        gap: 50px;
+        margin-left: 88px;
+        gap: 51px;
         align-items: center;
+
+        @media screen and (min-width: 480px) {
+
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            margin-left: 93px;
+            gap: 50px;
+            align-items: center;
+        }
+
+
     }
     
     &__svg {
@@ -116,6 +159,10 @@ display: none;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+
+    &__link-contact:hover {
+        color: #2196F3;
+    }
     
     &__svg:hover &__envelope {
         fill: #2196F3;
@@ -133,9 +180,27 @@ display: none;
     
     &__contacts {
         display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        row-gap: 10px;
+        align-items: center;
+
+        @media screen and (min-width: 480px) {
+        
+        }
+    
+    
+    @media screen and (min-width: 768px) {
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
         margin-left: auto;
         gap: 50px;
         align-items: center;
+    }
     }
     
     &__logo-color {
@@ -171,7 +236,7 @@ display: none;
     
     }
     
-    &__contacts {
+    &__link-contact {
     
         font-size: 14px;
         font-weight: 500;

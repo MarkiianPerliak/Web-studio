@@ -1,6 +1,25 @@
 .projects {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+    @media screen and (min-width: 480px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    
+    }
+
+
+    @media screen and (min-width: 768px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 
     &__article {
         border: 1px solid #EEE;
@@ -8,6 +27,22 @@
         transition-property: box-shadow;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+        @media screen and (min-width: 480px) {
+
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+
+        }
     }
     
     &__article:hover {
@@ -16,9 +51,36 @@
     
     &__list {
         display: flex;
+        flex-direction: column;
         gap: 8px;
         justify-content: center;
         margin-bottom: 50px;
+
+
+        @media screen and (min-width: 480px) {
+flex-direction: column;
+            display: flex;
+        gap: 8px;
+        justify-content: center;
+        margin-bottom: 50px;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-direction: row;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 50px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 50px;
+        }
     
     }
     
@@ -43,6 +105,23 @@
         transition-property: background-color, color, box-shadow;
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+        @media screen and (min-width: 480px) {
+
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+
+        }
     }
     
     &__button:hover {
@@ -53,22 +132,65 @@
     
     &__big-list {
         display: flex;
+        flex-direction: column;
         flex-wrap: wrap;
         row-gap: 30px;
         gap: 27px;
         justify-content: center;
+
+
+        
+
+
+        @media screen and (min-width: 480px) {
+
+            display: flex;
+            flex-direction: column;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        gap: 27px;
+        justify-content: center;
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            gap: 27px;
+            justify-content: center;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 30px;
+            gap: 27px;
+            justify-content: center;
+        }
     }
     
     &__box {
         padding-left: 24px;
         padding-top: 20px;
         padding-bottom: 20px;
+
+
+
+
+
+
     }
     
     &__article {
         border: 1px solid #EEE;
         background: #FFF;
         position: relative;
+
+
+
     }
     
     &__headline {
@@ -79,6 +201,70 @@
         text-align: left;
         color: $title-color;
         margin-bottom: 4px;
+
+
+        @media screen and (min-width: 480px) {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            text-align: left;
+            color: $title-color;
+            margin-bottom: 4px;
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            text-align: left;
+            color: $title-color;
+            margin-bottom: 4px;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 2;
+            letter-spacing: 0.06em;
+            text-align: left;
+            color: $title-color;
+            margin-bottom: 4px;
+        }
+    }
+
+    &__img {
+
+        width: 330px;
+height: 294px;
+flex-shrink: 0;
+
+
+
+        @media screen and (min-width: 480px) {
+            width: 450px;
+            height: 294px;
+            flex-shrink: 0;
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            width: 350px;
+            height: 294px;
+            flex-shrink: 0;
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            width: 370px;
+            height: 294px;
+            flex-shrink: 0;
+        }
     }
     
     &__info {
@@ -88,10 +274,54 @@
         letter-spacing: 0.03em;
         text-align: left;
         color: $text-color;
+
+
+        @media screen and (min-width: 480px) {
+            color: #757575;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; /* 187.5% */
+            letter-spacing: 0.48px;
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+            color: #757575;
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px; /* 187.5% */
+            letter-spacing: 0.48px;
+        }
     }
     
     &__item {
         margin-bottom: 34px;
+
+
+        @media screen and (min-width: 480px) {
+
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
+
+        }
     }
     
     &__hover-box {

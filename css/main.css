@@ -306,6 +306,10 @@ summary {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.display {
+  display: flex;
+}
+
 .header {
   border-bottom: solid #D4DBDA 1px;
 }
@@ -317,11 +321,21 @@ summary {
 @media screen and (min-width: 768px) {
   .header {
     border-bottom: solid #D4DBDA 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 @media screen and (min-width: 1200px) {
   .header {
     border-bottom: solid #D4DBDA 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
   }
 }
 .header__item {
@@ -338,21 +352,23 @@ summary {
 @media screen and (min-width: 768px) {
   .header__nav {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
   }
 }
 @media screen and (min-width: 1200px) {
   .header__nav {
-    display: flex;
-    justify-content: space-between;
+    gap: 280px;
   }
-}
-.header__logo-link {
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .header__menu-box {
   display: flex;
+}
+@media screen and (min-width: 768px) {
+  .header__menu-box {
+    display: block;
+  }
 }
 .header__menu-button {
   margin-left: 120px;
@@ -360,6 +376,11 @@ summary {
 @media screen and (min-width: 480px) {
   .header__menu-button {
     margin-left: 260px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__menu-button {
+    display: none;
   }
 }
 .header__svg-menu {
@@ -379,9 +400,17 @@ summary {
 }
 .header__list {
   display: flex;
-  margin-left: 93px;
-  gap: 50px;
+  margin-left: 88px;
+  gap: 51px;
   align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .header__list {
+    display: flex;
+    margin-left: 93px;
+    gap: 50px;
+    align-items: center;
+  }
 }
 .header__svg {
   display: flex;
@@ -404,6 +433,9 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.header__link-contact:hover {
+  color: #2196F3;
+}
 .header__svg:hover .header__envelope {
   fill: #2196F3;
 }
@@ -415,9 +447,19 @@ summary {
 }
 .header__contacts {
   display: flex;
+  flex-direction: column;
   margin-left: auto;
-  gap: 50px;
+  row-gap: 10px;
   align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    gap: 50px;
+    align-items: center;
+  }
 }
 .header__logo-color {
   font-family: "Raleway";
@@ -448,7 +490,7 @@ summary {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header__contacts {
+.header__link-contact {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
