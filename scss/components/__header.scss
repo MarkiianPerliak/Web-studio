@@ -59,19 +59,22 @@ display: none;
 
     &__menu-box {
         display: flex;
+        justify-content: space-between;
+        width: 100%;
 
         @media screen and (min-width: 768px) {
             display: block;
+            width: auto;
         }
                 
     }
 
 
     &__menu-button {
-        margin-left: 120px ;
+        margin-left: auto ;
 
         @media screen and (min-width: 480px) {
-            margin-left: 260px;
+            margin-left: auto;
 
         }
 
@@ -183,7 +186,6 @@ display: none;
         flex-direction: column;
         margin-left: auto;
         row-gap: 10px;
-        align-items: center;
 
         @media screen and (min-width: 480px) {
         

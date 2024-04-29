@@ -466,18 +466,21 @@ summary {
 }
 .header__menu-box {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .header__menu-box {
     display: block;
+    width: auto;
   }
 }
 .header__menu-button {
-  margin-left: 120px;
+  margin-left: auto;
 }
 @media screen and (min-width: 480px) {
   .header__menu-button {
-    margin-left: 260px;
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -552,7 +555,6 @@ summary {
   flex-direction: column;
   margin-left: auto;
   row-gap: 10px;
-  align-items: center;
 }
 @media screen and (min-width: 1200px) {
   .header__contacts {
