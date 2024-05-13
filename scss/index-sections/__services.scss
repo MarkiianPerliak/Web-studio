@@ -10,13 +10,15 @@
         margin-bottom: 30px;
         height: 120px;
         width: 310px;
-        background-image: url(../images-index/antenna.png);
         background-repeat: no-repeat;
         background-position: center;
 
         @media screen and (min-width: 480px) {
             height: 120px;
             width: 450px;
+
+
+
     
         }
     
@@ -24,28 +26,81 @@
         @media screen and (min-width: 768px) {
             height: 120px;
             width: 354px;
+
+
+
     
         }
     
         @media screen and (min-width: 1200px) {
             height: 120px;
             width: 270px;
+            background-image: url(../../img/dekstop/antenna-services-1-dekstop1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../img/dekstop/antenna-services-1-dekstop2x.webp);
+            }
         }
     
     }
     
     &__img:nth-child(2)::before {
-        background-image: url(../);
+        background-image: url(../../);
+
+
+        @media screen and (min-width: 1200px) {
+            height: 120px;
+            width: 270px;
+            background-image: url(../../img/dekstop/clock-services-2-dekstop1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../img/dekstop/clock-services-2-dekstop2x.webp);
+            }
+        }
     
     }
     
     &__img:nth-child(3)::before {
-        background-image: url(../);
+        background-image: url(../../);
+
+
+        @media screen and (min-width: 1200px) {
+            height: 120px;
+            width: 270px;
+            background-image: url(../../img/dekstop/diagram-services-3-dekstop1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../img/dekstop/diagram-services-3-dekstop2x.webp);
+            }
+        }
     
     }
     
     &__img:nth-child(4)::before {
-        background-image: url(../);
+        background-image: url(../../);
+
+
+        @media screen and (min-width: 1200px) {
+            height: 120px;
+            width: 270px;
+            background-image: url(../../img/dekstop/astronaut-services-4-dekstop1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../img/dekstop/astronaut-services-4-dekstop2x.webp);
+            }
+        }
     
     }
     
