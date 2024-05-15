@@ -20,12 +20,12 @@
     @media screen and (min-width: 1200px) {
         padding-top: 200px;
         padding-bottom: 200px;
-        background-image: url(../../img/dekstop/img1x-background-hero.webp);
+        background-image: url(../img/dekstop/img1x-background-hero.webp);
     
         @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: url(../../img/dekstop/img2x-background-hero.webp);
+        background-image: url(../img/dekstop/img2x-background-hero.webp);
     }
 
     }

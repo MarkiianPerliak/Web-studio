@@ -560,12 +560,12 @@ summary {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(../../img/dekstop/img1x-background-hero.webp);
+    background-image: url(../img/dekstop/img1x-background-hero.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../../img/dekstop/img2x-background-hero.webp);
+    background-image: url(../img/dekstop/img2x-background-hero.webp);
   }
 }
 .hero__text {
@@ -999,12 +999,12 @@ summary {
   .services__img::before {
     height: 120px;
     width: 270px;
-    background-image: url(../../img/dekstop/antenna-services-1-dekstop1x.webp);
+    background-image: url(../img/dekstop/antenna-services-1-dekstop1x.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .services__img::before {
-    background-image: url(../../img/dekstop/antenna-services-1-dekstop2x.webp);
+    background-image: url(../img/dekstop/antenna-services-1-dekstop2x.webp);
   }
 }
 .services__img:nth-child(2)::before {
@@ -1014,12 +1014,12 @@ summary {
   .services__img:nth-child(2)::before {
     height: 120px;
     width: 270px;
-    background-image: url(../../img/dekstop/clock-services-2-dekstop1x.webp);
+    background-image: url(../img/dekstop/clock-services-2-dekstop1x.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .services__img:nth-child(2)::before {
-    background-image: url(../../img/dekstop/clock-services-2-dekstop2x.webp);
+    background-image: url(../img/dekstop/clock-services-2-dekstop2x.webp);
   }
 }
 .services__img:nth-child(3)::before {
@@ -1029,12 +1029,12 @@ summary {
   .services__img:nth-child(3)::before {
     height: 120px;
     width: 270px;
-    background-image: url(../../img/dekstop/diagram-services-3-dekstop1x.webp);
+    background-image: url(../img/dekstop/diagram-services-3-dekstop1x.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .services__img:nth-child(3)::before {
-    background-image: url(../../img/dekstop/diagram-services-3-dekstop2x.webp);
+    background-image: url(../img/dekstop/diagram-services-3-dekstop2x.webp);
   }
 }
 .services__img:nth-child(4)::before {
@@ -1044,12 +1044,12 @@ summary {
   .services__img:nth-child(4)::before {
     height: 120px;
     width: 270px;
-    background-image: url(../../img/dekstop/astronaut-services-4-dekstop1x.webp);
+    background-image: url(../img/dekstop/astronaut-services-4-dekstop1x.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .services__img:nth-child(4)::before {
-    background-image: url(../../img/dekstop/astronaut-services-4-dekstop2x.webp);
+    background-image: url(../img/dekstop/astronaut-services-4-dekstop2x.webp);
   }
 }
 .services__list {
