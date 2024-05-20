@@ -8,14 +8,31 @@
         padding-bottom: 25px;
         padding-top: 25px;
         margin-bottom: 30px;
-        height: 120px;
-        width: 310px;
+        width: 450px;
+height: 120px;
         background-repeat: no-repeat;
         background-position: center;
+        background-image: url(../img/mobile/antenna-services-1-mobile1x.webp);
+
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/mobile/antenna-services-1-mobile2x.webp);
+        }
+        
 
         @media screen and (min-width: 480px) {
-            height: 120px;
             width: 450px;
+height: 120px;
+            background-image: url(../img/mobile/antenna-services-1-mobile1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../img/mobile/antenna-services-1-mobile2x.webp);
+            }
 
 
 
@@ -24,8 +41,17 @@
     
     
         @media screen and (min-width: 768px) {
-            height: 120px;
             width: 354px;
+            height: 120px;
+            
+            background-image: url(../../img/tablet/antenna-services-1-tablet1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../img/tablet/antenna-services-1-tablet2x.webp);
+            }
 
 
 
@@ -33,8 +59,9 @@
         }
     
         @media screen and (min-width: 1200px) {
-            height: 120px;
             width: 270px;
+            height: 120px;
+            
             background-image: url(../img/dekstop/antenna-services-1-dekstop1x.webp);
 
 
@@ -48,12 +75,59 @@
     }
     
     &__img:nth-child(2)::before {
-        background-image: url(../../);
+        background-image: url(../img/mobile/clock-services-2-mobile1x.webp);
+        width: 450px;
+height: 120px;
 
 
-        @media screen and (min-width: 1200px) {
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/mobile/clock-services-2-mobile2x.webp);
+        }
+        
+
+        @media screen and (min-width: 480px) {
+            width: 450px;
+height: 120px;
+            
+            background-image: url(../img/mobile/clock-services-2-mobile1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../img/mobile/clock-services-2-mobile2x.webp);
+            }
+
+
+
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            width: 354px;
             height: 120px;
+            
+            background-image: url(../../img/tablet/clock-services-2-tablet1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../img/tablet/clock-services-2-tablet2x.webp);
+            }
+
+
+
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
             width: 270px;
+            height: 120px;
+            
             background-image: url(../img/dekstop/clock-services-2-dekstop1x.webp);
 
 
@@ -67,12 +141,58 @@
     }
     
     &__img:nth-child(3)::before {
-        background-image: url(../../);
+        background-image: url(../img/mobile/diagram-services-3-mobile1x.webp);
+        width: 450px;
+height: 120px;
+
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/mobile/diagram-services-3-mobile2x.webp);
+        }
+        
+
+        @media screen and (min-width: 480px) {
+            width: 450px;
+height: 120px;
+            
+            background-image: url(../img/mobile/diagram-services-3-mobile1x.webp);
 
 
-        @media screen and (min-width: 1200px) {
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../img/mobile/diagram-services-3-mobile2x.webp);
+            }
+
+
+
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            width: 354px;
             height: 120px;
+            
+            background-image: url(../../img/tablet/diagram-services-3-tablet1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../img/tablet/diagram-services-3-tablet2x.webp);
+            }
+
+
+
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
             width: 270px;
+            height: 120px;
+            
             background-image: url(../img/dekstop/diagram-services-3-dekstop1x.webp);
 
 
@@ -86,12 +206,59 @@
     }
     
     &__img:nth-child(4)::before {
-        background-image: url(../../);
+        background-image: url(../img/mobile/astronaut-services-4-mobile1x.webp);
+        width: 450px;
+height: 120px;
 
 
-        @media screen and (min-width: 1200px) {
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: url(../img/mobile/astronaut-services-4-mobile2x.webp);
+        }
+        
+
+        @media screen and (min-width: 480px) {
+            width: 450px;
+height: 120px;
+            
+            background-image: url(../img/mobile/astronaut-services-4-mobile1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../img/mobile/astronaut-services-4-mobile2x.webp);
+            }
+
+
+
+    
+        }
+    
+    
+        @media screen and (min-width: 768px) {
+            width: 354px;
             height: 120px;
+            
+            background-image: url(../../img/tablet/astronaut-services-4-tablet1x.webp);
+
+
+            @media (min-device-pixel-ratio: 2),
+            (min-resolution: 192dpi),
+            (min-resolution: 2dppx) {
+            background-image: url(../../img/tablet/astronaut-services-4-tablet2x.webp);
+            }
+
+
+
+    
+        }
+    
+        @media screen and (min-width: 1200px) {
             width: 270px;
+            height: 120px;
+            
             background-image: url(../img/dekstop/astronaut-services-4-dekstop1x.webp);
 
 

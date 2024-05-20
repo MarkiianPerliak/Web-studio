@@ -543,17 +543,35 @@ summary {
   background-size: cover;
   padding-top: 118px;
   padding-bottom: 118px;
+  background-image: url(../img/mobile/imghero-background-mobile1x.webp);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/mobile/imghero-background-mobile2x.webp);
+  }
 }
 @media screen and (min-width: 480px) {
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
+    background-image: url(../img/mobile/imghero-background-mobile1x.webp);
+  }
+}
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/mobile/imghero-background-mobile2x.webp);
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
     padding-top: 118px;
     padding-bottom: 118px;
+    background-image: url(../img/tablet/imghero-background-tablet1x.webp);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/tablet/imghero-background-tablet2x.webp);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -978,27 +996,45 @@ summary {
   padding-bottom: 25px;
   padding-top: 25px;
   margin-bottom: 30px;
+  width: 450px;
   height: 120px;
-  width: 310px;
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url(../img/mobile/antenna-services-1-mobile1x.webp);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .services__img::before {
+    background-image: url(../img/mobile/antenna-services-1-mobile2x.webp);
+  }
 }
 @media screen and (min-width: 480px) {
   .services__img::before {
-    height: 120px;
     width: 450px;
+    height: 120px;
+    background-image: url(../img/mobile/antenna-services-1-mobile1x.webp);
+  }
+}
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+  .services__img::before {
+    background-image: url(../img/mobile/antenna-services-1-mobile2x.webp);
   }
 }
 @media screen and (min-width: 768px) {
   .services__img::before {
-    height: 120px;
     width: 354px;
+    height: 120px;
+    background-image: url(../../img/tablet/antenna-services-1-tablet1x.webp);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .services__img::before {
+    background-image: url(../../img/tablet/antenna-services-1-tablet2x.webp);
   }
 }
 @media screen and (min-width: 1200px) {
   .services__img::before {
-    height: 120px;
     width: 270px;
+    height: 120px;
     background-image: url(../img/dekstop/antenna-services-1-dekstop1x.webp);
   }
 }
@@ -1008,12 +1044,43 @@ summary {
   }
 }
 .services__img:nth-child(2)::before {
-  background-image: url(../../);
+  background-image: url(../img/mobile/clock-services-2-mobile1x.webp);
+  width: 450px;
+  height: 120px;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .services__img:nth-child(2)::before {
+    background-image: url(../img/mobile/clock-services-2-mobile2x.webp);
+  }
+}
+@media screen and (min-width: 480px) {
+  .services__img:nth-child(2)::before {
+    width: 450px;
+    height: 120px;
+    background-image: url(../img/mobile/clock-services-2-mobile1x.webp);
+  }
+}
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+  .services__img:nth-child(2)::before {
+    background-image: url(../img/mobile/clock-services-2-mobile2x.webp);
+  }
+}
+@media screen and (min-width: 768px) {
+  .services__img:nth-child(2)::before {
+    width: 354px;
+    height: 120px;
+    background-image: url(../../img/tablet/clock-services-2-tablet1x.webp);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .services__img:nth-child(2)::before {
+    background-image: url(../../img/tablet/clock-services-2-tablet2x.webp);
+  }
 }
 @media screen and (min-width: 1200px) {
   .services__img:nth-child(2)::before {
-    height: 120px;
     width: 270px;
+    height: 120px;
     background-image: url(../img/dekstop/clock-services-2-dekstop1x.webp);
   }
 }
@@ -1023,12 +1090,43 @@ summary {
   }
 }
 .services__img:nth-child(3)::before {
-  background-image: url(../../);
+  background-image: url(../img/mobile/diagram-services-3-mobile1x.webp);
+  width: 450px;
+  height: 120px;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .services__img:nth-child(3)::before {
+    background-image: url(../img/mobile/diagram-services-3-mobile2x.webp);
+  }
+}
+@media screen and (min-width: 480px) {
+  .services__img:nth-child(3)::before {
+    width: 450px;
+    height: 120px;
+    background-image: url(../img/mobile/diagram-services-3-mobile1x.webp);
+  }
+}
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+  .services__img:nth-child(3)::before {
+    background-image: url(../img/mobile/diagram-services-3-mobile2x.webp);
+  }
+}
+@media screen and (min-width: 768px) {
+  .services__img:nth-child(3)::before {
+    width: 354px;
+    height: 120px;
+    background-image: url(../../img/tablet/diagram-services-3-tablet1x.webp);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .services__img:nth-child(3)::before {
+    background-image: url(../../img/tablet/diagram-services-3-tablet2x.webp);
+  }
 }
 @media screen and (min-width: 1200px) {
   .services__img:nth-child(3)::before {
-    height: 120px;
     width: 270px;
+    height: 120px;
     background-image: url(../img/dekstop/diagram-services-3-dekstop1x.webp);
   }
 }
@@ -1038,12 +1136,43 @@ summary {
   }
 }
 .services__img:nth-child(4)::before {
-  background-image: url(../../);
+  background-image: url(../img/mobile/astronaut-services-4-mobile1x.webp);
+  width: 450px;
+  height: 120px;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .services__img:nth-child(4)::before {
+    background-image: url(../img/mobile/astronaut-services-4-mobile2x.webp);
+  }
+}
+@media screen and (min-width: 480px) {
+  .services__img:nth-child(4)::before {
+    width: 450px;
+    height: 120px;
+    background-image: url(../img/mobile/astronaut-services-4-mobile1x.webp);
+  }
+}
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+  .services__img:nth-child(4)::before {
+    background-image: url(../img/mobile/astronaut-services-4-mobile2x.webp);
+  }
+}
+@media screen and (min-width: 768px) {
+  .services__img:nth-child(4)::before {
+    width: 354px;
+    height: 120px;
+    background-image: url(../../img/tablet/astronaut-services-4-tablet1x.webp);
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .services__img:nth-child(4)::before {
+    background-image: url(../../img/tablet/astronaut-services-4-tablet2x.webp);
+  }
 }
 @media screen and (min-width: 1200px) {
   .services__img:nth-child(4)::before {
-    height: 120px;
     width: 270px;
+    height: 120px;
     background-image: url(../img/dekstop/astronaut-services-4-dekstop1x.webp);
   }
 }

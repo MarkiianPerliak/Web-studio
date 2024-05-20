@@ -3,10 +3,24 @@
     background-size: cover;
     padding-top: 118px;
     padding-bottom: 118px;
+    background-image: url(../img/mobile/imghero-background-mobile1x.webp);
+    
+    @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    background-image: url(../img/mobile/imghero-background-mobile2x.webp);
+}
 
     @media screen and (min-width: 480px) {
         padding-top: 118px;
         padding-bottom: 118px;
+        background-image: url(../img/mobile/imghero-background-mobile1x.webp);
+    
+        @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url(../img/mobile/imghero-background-mobile2x.webp);
+    }
 
     }
 
@@ -14,6 +28,13 @@
     @media screen and (min-width: 768px) {
         padding-top: 118px;
         padding-bottom: 118px;
+        background-image: url(../img/tablet/imghero-background-tablet1x.webp);
+    
+        @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        background-image: url(../img/tablet/imghero-background-tablet2x.webp);
+    }
 
     }
 
