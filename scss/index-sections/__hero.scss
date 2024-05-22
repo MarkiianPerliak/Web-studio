@@ -1,25 +1,24 @@
 .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)) ;
     background-size: cover;
     padding-top: 118px;
     padding-bottom: 118px;
-    background-image: url(../img/mobile/imghero-background-mobile1x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)),  url(../img/mobile/imghero-background-mobile1x.webp);
     
     @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    background-image: url(../img/mobile/imghero-background-mobile2x.webp);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/mobile/imghero-background-mobile2x.webp);
 }
 
     @media screen and (min-width: 480px) {
         padding-top: 118px;
         padding-bottom: 118px;
-        background-image: url(../img/mobile/imghero-background-mobile1x.webp);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/mobile/imghero-background-mobile1x.webp);
     
         @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: url(../img/mobile/imghero-background-mobile2x.webp);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/mobile/imghero-background-mobile2x.webp);
     }
 
     }
@@ -28,12 +27,12 @@
     @media screen and (min-width: 768px) {
         padding-top: 118px;
         padding-bottom: 118px;
-        background-image: url(../img/tablet/imghero-background-tablet1x.webp);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/tablet/imghero-background-tablet1x.webp);
     
         @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: url(../img/tablet/imghero-background-tablet2x.webp);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/tablet/imghero-background-tablet2x.webp);
     }
 
     }
@@ -41,12 +40,12 @@
     @media screen and (min-width: 1200px) {
         padding-top: 200px;
         padding-bottom: 200px;
-        background-image: url(../img/dekstop/img1x-background-hero.webp);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/dekstop/img1x-background-hero.webp);
     
         @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        background-image: url(../img/dekstop/img2x-background-hero.webp);
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/dekstop/img2x-background-hero.webp);
     }
 
     }
