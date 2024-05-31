@@ -1004,12 +1004,12 @@ summary {
     background-image: url(../img/mobile/antenna-services-1-mobile2x.webp);
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .services__img::before {
     background-image: url(../img/mobile/antenna-services-1-mobile1x.webp);
   }
 }
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
   .services__img::before {
     background-image: url(../img/mobile/antenna-services-1-mobile2x.webp);
   }
@@ -1042,12 +1042,12 @@ summary {
     background-image: url(../img/mobile/clock-services-2-mobile2x.webp);
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .services__img:nth-child(2)::before {
     background-image: url(../img/mobile/clock-services-2-mobile1x.webp);
   }
 }
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
   .services__img:nth-child(2)::before {
     background-image: url(../img/mobile/clock-services-2-mobile2x.webp);
   }
@@ -1080,12 +1080,12 @@ summary {
     background-image: url(../img/mobile/diagram-services-3-mobile2x.webp);
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .services__img:nth-child(3)::before {
     background-image: url(../img/mobile/diagram-services-3-mobile1x.webp);
   }
 }
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
   .services__img:nth-child(3)::before {
     background-image: url(../img/mobile/diagram-services-3-mobile2x.webp);
   }
@@ -1118,12 +1118,12 @@ summary {
     background-image: url(../img/mobile/astronaut-services-4-mobile2x.webp);
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .services__img:nth-child(4)::before {
     background-image: url(../img/mobile/astronaut-services-4-mobile1x.webp);
   }
 }
-@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 320px) and (min-device-pixel-ratio: 2), screen and (min-width: 320px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 320px) and (min-resolution: 192dpi), screen and (min-width: 320px) and (min-resolution: 2dppx) {
   .services__img:nth-child(4)::before {
     background-image: url(../img/mobile/astronaut-services-4-mobile2x.webp);
   }
@@ -1153,7 +1153,7 @@ summary {
   flex-direction: column;
   justify-content: center;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .services__list {
     display: flex;
     flex-direction: column;
@@ -1180,7 +1180,7 @@ summary {
   color: #212121;
   margin-bottom: 10px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .services__headline {
     text-align: center;
     margin-bottom: 10px;
@@ -1200,7 +1200,7 @@ summary {
   text-align: left;
   width: 310px;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .services__info {
     text-align: left;
     width: 450px;
