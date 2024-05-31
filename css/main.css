@@ -1016,12 +1016,12 @@ summary {
 }
 @media screen and (min-width: 768px) {
   .services__img::before {
-    background-image: url(../../img/tablet/antenna-services-1-tablet1x.webp);
+    background-image: url(../img/tablet/antenna-services-1-tablet1x.webp);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .services__img::before {
-    background-image: url(../../img/tablet/antenna-services-1-tablet2x.webp);
+    background-image: url(../img/tablet/antenna-services-1-tablet2x.webp);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1054,12 +1054,12 @@ summary {
 }
 @media screen and (min-width: 768px) {
   .services__img:nth-child(2)::before {
-    background-image: url(../../img/tablet/clock-services-2-tablet1x.webp);
+    background-image: url(../img/tablet/clock-services-2-tablet1x.webp);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .services__img:nth-child(2)::before {
-    background-image: url(../../img/tablet/clock-services-2-tablet2x.webp);
+    background-image: url(../img/tablet/clock-services-2-tablet2x.webp);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1092,12 +1092,12 @@ summary {
 }
 @media screen and (min-width: 768px) {
   .services__img:nth-child(3)::before {
-    background-image: url(../../img/tablet/diagram-services-3-tablet1x.webp);
+    background-image: url(../img/tablet/diagram-services-3-tablet1x.webp);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .services__img:nth-child(3)::before {
-    background-image: url(../../img/tablet/diagram-services-3-tablet2x.webp);
+    background-image: url(../img/tablet/diagram-services-3-tablet2x.webp);
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1130,12 +1130,12 @@ summary {
 }
 @media screen and (min-width: 768px) {
   .services__img:nth-child(4)::before {
-    background-image: url(../../img/tablet/astronaut-services-4-tablet1x.webp);
+    background-image: url(../img/tablet/astronaut-services-4-tablet1x.webp);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .services__img:nth-child(4)::before {
-    background-image: url(../../img/tablet/astronaut-services-4-tablet2x.webp);
+    background-image: url(../img/tablet/astronaut-services-4-tablet2x.webp);
   }
 }
 @media screen and (min-width: 1200px) {
