@@ -530,7 +530,7 @@
                     <li class="modal__item">
                         <p class="modal__text">Ім'я</p>
                         <div class="modal__box">
-                            <input required class="modal__input" type="text">
+                            <input id="name" required class="modal__input" type="text">
                             <svg class="modal__svg__box">
                                 <use href="./icons/icon.svg#icon-person-black"></use>
                             </svg>
@@ -539,7 +539,7 @@
                     <li>
                         <p class="modal__text">Телефон</p>
                         <div class="modal__box">
-                            <input required class="modal__input" type="text">
+                            <input type="tel" id="phone" required class="modal__input">
                             <svg class="modal__svg__box">
                                 <use href="./icons/icon.svg#icon-phone-black"></use>
                             </svg>
@@ -548,7 +548,7 @@
                     <li>
                         <p class="modal__text">Пошта</p>
                         <div class="modal__box">
-                            <input required class="modal__input" type="text">
+                            <input type="email" id="email" required class="modal__input">
                             <svg class="modal__svg__box">
                                 <use href="./icons/icon.svg#icon-email-black"></use>
                             </svg>
@@ -557,7 +557,7 @@
                     <li>
                         <p class="modal__text">Коментар</p>
                         <div class="modal__box">
-                            <input class="modal__big__input" placeholder="Введіть текст" type="text">
+                            <input id="description" class="modal__big__input" placeholder="Введіть текст" type="text">
                         </div>
                     </li>
                 </ul>
@@ -571,7 +571,7 @@
             class="modal-text-color"> Умови договору</a> -->
                 </div>
 
-                <button class="modal__button" type="submit">Відправити</button>
+                <button class="modal__button" type="button" id="sendButton">Відправити</button>
             </form>
         </div>
     </div>
@@ -642,7 +642,8 @@
 
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
-    <script src="./js/info.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
